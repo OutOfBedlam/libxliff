@@ -1,0 +1,910 @@
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+    <file original="ComicQuickLook/Info.plist" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="CFBundleName">
+                <source>$(PRODUCT_NAME)</source>
+            </trans-unit>
+            <trans-unit id="CFBundleShortVersionString">
+                <source>1.5</source>
+            </trans-unit>
+            <trans-unit id="NSHumanReadableCopyright">
+                <source>Copyright © 2014 Yet Reader Forge. All rights reserved.</source>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="ComicReader/Base.lproj/ComicMainMenu.xib" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="0si-tV-Q6e.title">
+                <source>Current Page </source>
+                <note>Class = "NSMenuItem"; title = "Current Page "; ObjectID = "0si-tV-Q6e";</note>
+            </trans-unit>
+            <trans-unit id="1Xt-HY-uBw.title">
+                <source>Yet Comic Reader</source>
+                <note>Class = "NSMenuItem"; title = "Yet Comic Reader"; ObjectID = "1Xt-HY-uBw";</note>
+            </trans-unit>
+            <trans-unit id="2iw-ef-2LH.title">
+                <source>First Page</source>
+                <note>Class = "NSMenuItem"; title = "First Page"; ObjectID = "2iw-ef-2LH";</note>
+            </trans-unit>
+            <trans-unit id="3T9-mN-MHK.title">
+                <source>Rate Yet Comic Reader</source>
+                <note>Class = "NSMenuItem"; title = "Rate Yet Comic Reader"; ObjectID = "3T9-mN-MHK";</note>
+            </trans-unit>
+            <trans-unit id="3i6-5M-LIN.title">
+                <source>Copy</source>
+                <note>Class = "NSMenuItem"; title = "Copy"; ObjectID = "3i6-5M-LIN";</note>
+            </trans-unit>
+            <trans-unit id="4YW-sY-edC.title">
+                <source>Export as EPUB...</source>
+                <note>Class = "NSMenuItem"; title = "Export as EPUB..."; ObjectID = "4YW-sY-edC";</note>
+            </trans-unit>
+            <trans-unit id="4sb-4s-VLi.title">
+                <source>Quit Yet Comic Reader</source>
+                <note>Class = "NSMenuItem"; title = "Quit Yet Comic Reader"; ObjectID = "4sb-4s-VLi";</note>
+            </trans-unit>
+            <trans-unit id="5kV-Vb-QxS.title">
+                <source>About Yet Comic Reader</source>
+                <note>Class = "NSMenuItem"; title = "About Yet Comic Reader"; ObjectID = "5kV-Vb-QxS";</note>
+            </trans-unit>
+            <trans-unit id="8FS-N0-NIX.title">
+                <source>Color Vibrance</source>
+                <note>Class = "NSMenuItem"; title = "Color Vibrance"; ObjectID = "8FS-N0-NIX";</note>
+            </trans-unit>
+            <trans-unit id="AGk-Sg-0Co.title">
+                <source>Sharpen image</source>
+                <note>Class = "NSMenuItem"; title = "Sharpen image"; ObjectID = "AGk-Sg-0Co";</note>
+            </trans-unit>
+            <trans-unit id="AYu-sK-qS6.title">
+                <source>Comic Main Menu</source>
+                <note>Class = "NSMenu"; title = "Comic Main Menu"; ObjectID = "AYu-sK-qS6";</note>
+            </trans-unit>
+            <trans-unit id="Aln-9l-kYw.title">
+                <source>Select</source>
+                <note>Class = "NSMenuItem"; title = "Select"; ObjectID = "Aln-9l-kYw";</note>
+            </trans-unit>
+            <trans-unit id="Ar7-HD-dZx.title">
+                <source>Keep current fit</source>
+                <note>Class = "NSMenuItem"; title = "Keep current fit"; ObjectID = "Ar7-HD-dZx";</note>
+            </trans-unit>
+            <trans-unit id="ArR-Z8-Y8P.title">
+                <source>Fit to height</source>
+                <note>Class = "NSMenuItem"; title = "Fit to height"; ObjectID = "ArR-Z8-Y8P";</note>
+            </trans-unit>
+            <trans-unit id="BOF-NM-1cW.title">
+                <source>Preferences…</source>
+                <note>Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW";</note>
+            </trans-unit>
+            <trans-unit id="Bw7-FT-i3A.title">
+                <source>Export as PDF …</source>
+                <note>Class = "NSMenuItem"; title = "Export as PDF…"; ObjectID = "Bw7-FT-i3A";</note>
+            </trans-unit>
+            <trans-unit id="CHh-Yb-OZT.title">
+                <source>View</source>
+                <note>Class = "NSMenuItem"; title = "View"; ObjectID = "CHh-Yb-OZT";</note>
+            </trans-unit>
+            <trans-unit id="CcF-Uw-CqK.title">
+                <source>Fit to width</source>
+                <note>Class = "NSMenuItem"; title = "Fit to width"; ObjectID = "CcF-Uw-CqK";</note>
+            </trans-unit>
+            <trans-unit id="DVo-aG-piG.title">
+                <source>Close</source>
+                <note>Class = "NSMenuItem"; title = "Close"; ObjectID = "DVo-aG-piG";</note>
+            </trans-unit>
+            <trans-unit id="Dk8-WC-C55.title">
+                <source>Enter Full Screen</source>
+                <note>Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "Dk8-WC-C55";</note>
+            </trans-unit>
+            <trans-unit id="ETU-uw-bGv.title">
+                <source>No scale</source>
+                <note>Class = "NSMenuItem"; title = "No scale"; ObjectID = "ETU-uw-bGv";</note>
+            </trans-unit>
+            <trans-unit id="Em3-WM-Qnp.title">
+                <source>Export as Images…</source>
+                <note>Class = "NSMenuItem"; title = "Export as Images…"; ObjectID = "Em3-WM-Qnp";</note>
+            </trans-unit>
+            <trans-unit id="F2S-fz-NVQ.title">
+                <source>Help</source>
+                <note>Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ";</note>
+            </trans-unit>
+            <trans-unit id="FKE-Sm-Kum.title">
+                <source>Yet Comic Reader Help</source>
+            </trans-unit>
+            <trans-unit id="H8h-7b-M4v.title">
+                <source>Page</source>
+                <note>Class = "NSMenuItem"; title = "Page"; ObjectID = "H8h-7b-M4v";</note>
+            </trans-unit>
+            <trans-unit id="HTK-E8-GQZ.title">
+                <source>Single page</source>
+                <note>Class = "NSMenuItem"; title = "Single page"; ObjectID = "HTK-E8-GQZ";</note>
+            </trans-unit>
+            <trans-unit id="HyV-fh-RgO.title">
+                <source>Page</source>
+                <note>Class = "NSMenu"; title = "Page"; ObjectID = "HyV-fh-RgO";</note>
+            </trans-unit>
+            <trans-unit id="IAo-SY-fd9.title">
+                <source>Open…</source>
+                <note>Class = "NSMenuItem"; title = "Open…"; ObjectID = "IAo-SY-fd9";</note>
+            </trans-unit>
+            <trans-unit id="J4j-ft-ils.title">
+                <source>Split page</source>
+                <note>Class = "NSMenuItem"; title = "Split page"; ObjectID = "J4j-ft-ils";</note>
+            </trans-unit>
+            <trans-unit id="Kd2-mp-pUS.title">
+                <source>Show All</source>
+                <note>Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS";</note>
+            </trans-unit>
+            <trans-unit id="LE2-aR-0XJ.title">
+                <source>Bring All to Front</source>
+                <note>Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ";</note>
+            </trans-unit>
+            <trans-unit id="Lae-cY-26d.title">
+                <source>Change File Icon with</source>
+                <note>Class = "NSMenuItem"; title = "Change File Icon with"; ObjectID = "Lae-cY-26d";</note>
+            </trans-unit>
+            <trans-unit id="MQF-Oq-VD2.title">
+                <source>Mono image</source>
+                <note>Class = "NSMenuItem"; title = "Mono image"; ObjectID = "MQF-Oq-VD2";</note>
+            </trans-unit>
+            <trans-unit id="OY7-WF-poV.title">
+                <source>Minimize</source>
+                <note>Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV";</note>
+            </trans-unit>
+            <trans-unit id="Olw-nP-bQN.title">
+                <source>Hide ComicReader</source>
+                <note>Class = "NSMenuItem"; title = "Hide ComicReader"; ObjectID = "Olw-nP-bQN";</note>
+            </trans-unit>
+            <trans-unit id="QRT-MM-HNg.title">
+                <source>Previous page</source>
+                <note>Class = "NSMenuItem"; title = "Previous page"; ObjectID = "QRT-MM-HNg";</note>
+            </trans-unit>
+            <trans-unit id="Qxg-oh-nEC.title">
+                <source>Email the Developer</source>
+                <note>Class = "NSMenuItem"; title = "Email the Developer"; ObjectID = "Qxg-oh-nEC";</note>
+            </trans-unit>
+            <trans-unit id="R4o-n2-Eq4.title">
+                <source>Zoom</source>
+                <note>Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4";</note>
+            </trans-unit>
+            <trans-unit id="Td7-aD-5lo.title">
+                <source>Window</source>
+                <note>Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo";</note>
+            </trans-unit>
+            <trans-unit id="Vay-qq-60F.title">
+                <source>Save As...</source>
+                <note>Class = "NSMenuItem"; title = "Save As..."; ObjectID = "Vay-qq-60F";</note>
+            </trans-unit>
+            <trans-unit id="Vdr-fp-XzO.title">
+                <source>Hide Others</source>
+                <note>Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO";</note>
+            </trans-unit>
+            <trans-unit id="Yq8-wZ-cmk.title">
+                <source>Share as Image</source>
+                <note>Class = "NSMenuItem"; title = "Share as Image"; ObjectID = "Yq8-wZ-cmk";</note>
+            </trans-unit>
+            <trans-unit id="YqJ-9k-Wvd.title">
+                <source>Dual pages</source>
+                <note>Class = "NSMenuItem"; title = "Dual pages"; ObjectID = "YqJ-9k-Wvd";</note>
+            </trans-unit>
+            <trans-unit id="aUF-d1-5bR.title">
+                <source>Window</source>
+                <note>Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR";</note>
+            </trans-unit>
+            <trans-unit id="abQ-ja-WN9.title">
+                <source>Next page</source>
+                <note>Class = "NSMenuItem"; title = "Next page"; ObjectID = "abQ-ja-WN9";</note>
+            </trans-unit>
+            <trans-unit id="bbf-iF-bMZ.title">
+                <source>Zoom Out</source>
+                <note>Class = "NSMenuItem"; title = "Zoom Out"; ObjectID = "bbf-iF-bMZ";</note>
+            </trans-unit>
+            <trans-unit id="bib-Uj-vzu.title">
+                <source>File</source>
+                <note>Class = "NSMenu"; title = "File"; ObjectID = "bib-Uj-vzu";</note>
+            </trans-unit>
+            <trans-unit id="cCL-df-hTX.title">
+                <source>Yet Comic Reader Web Site</source>
+                <note>Class = "NSMenuItem"; title = "Yet Comic Reader Web Site"; ObjectID = "cCL-df-hTX";</note>
+            </trans-unit>
+            <trans-unit id="cPr-IU-wrA.title">
+                <source>Start Slideshow</source>
+                <note>Class = "NSMenuItem"; title = "Start Slideshow"; ObjectID = "cPr-IU-wrA";</note>
+            </trans-unit>
+            <trans-unit id="dMs-cI-mzQ.title">
+                <source>File</source>
+                <note>Class = "NSMenuItem"; title = "File"; ObjectID = "dMs-cI-mzQ";</note>
+            </trans-unit>
+            <trans-unit id="eZV-Ra-HsX.title">
+                <source>Cancel Selection</source>
+                <note>Class = "NSMenuItem"; title = "Cancel Selection"; ObjectID = "eZV-Ra-HsX";</note>
+            </trans-unit>
+            <trans-unit id="egz-hN-uYt.title">
+                <source>Select Ellipse</source>
+                <note>Class = "NSMenuItem"; title = "Select Ellipse"; ObjectID = "egz-hN-uYt";</note>
+            </trans-unit>
+            <trans-unit id="fjf-9X-7aA.title">
+                <source>Current Selection</source>
+                <note>Class = "NSMenuItem"; title = "Current Selection"; ObjectID = "fjf-9X-7aA";</note>
+            </trans-unit>
+            <trans-unit id="iI7-Xt-Sx1.title">
+                <source>View</source>
+                <note>Class = "NSMenu"; title = "View"; ObjectID = "iI7-Xt-Sx1";</note>
+            </trans-unit>
+            <trans-unit id="iyq-Z5-J0o.title">
+                <source>Edit</source>
+                <note>Class = "NSMenuItem"; title = "Edit"; ObjectID = "iyq-Z5-J0o";</note>
+            </trans-unit>
+            <trans-unit id="jnQ-F2-fiJ.title">
+                <source>Original Scale</source>
+                <note>Class = "NSMenuItem"; title = "Original Scale"; ObjectID = "jnQ-F2-fiJ";</note>
+            </trans-unit>
+            <trans-unit id="k7D-In-qSG.title">
+                <source>Change File Icon with</source>
+                <note>Class = "NSMenu"; title = "Change File Icon with"; ObjectID = "k7D-In-qSG";</note>
+            </trans-unit>
+            <trans-unit id="kAr-2t-el3.title">
+                <source>Edit</source>
+                <note>Class = "NSMenu"; title = "Edit"; ObjectID = "kAr-2t-el3";</note>
+            </trans-unit>
+            <trans-unit id="kCL-En-AN1.title">
+                <source>Share via AirDrop</source>
+                <note>Class = "NSMenuItem"; title = "Share via AirDrop"; ObjectID = "kCL-En-AN1";</note>
+            </trans-unit>
+            <trans-unit id="nrf-gf-zgW.title">
+                <source>Composer...</source>
+                <note>Class = "NSMenuItem"; title = "Composer..."; ObjectID = "nrf-gf-zgW";</note>
+            </trans-unit>
+            <trans-unit id="oas-Oc-fiZ.title">
+                <source>Open Recent</source>
+                <note>Class = "NSMenu"; title = "Open Recent"; ObjectID = "oas-Oc-fiZ";</note>
+            </trans-unit>
+            <trans-unit id="tTc-sJ-qyQ.title">
+                <source>Show Chapters ...</source>
+                <note>Class = "NSMenuItem"; title = "Show Chapters ..."; ObjectID = "tTc-sJ-qyQ";</note>
+            </trans-unit>
+            <trans-unit id="tXI-mr-wws.title">
+                <source>Open Recent</source>
+                <note>Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "tXI-mr-wws";</note>
+            </trans-unit>
+            <trans-unit id="uQy-DD-JDr.title">
+                <source>Yet Comic Reader</source>
+                <note>Class = "NSMenu"; title = "Yet Comic Reader"; ObjectID = "uQy-DD-JDr";</note>
+            </trans-unit>
+            <trans-unit id="vNY-rz-j42.title">
+                <source>Clear Menu</source>
+                <note>Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "vNY-rz-j42";</note>
+            </trans-unit>
+            <trans-unit id="wpr-3q-Mcd.title">
+                <source>Help</source>
+                <note>Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd";</note>
+            </trans-unit>
+            <trans-unit id="xNp-j6-Fx2.title">
+                <source>Show Thumbnails</source>
+                <note>Class = "NSMenuItem"; title = "Show Thumbnails"; ObjectID = "xNp-j6-Fx2";</note>
+            </trans-unit>
+            <trans-unit id="yVa-HJ-R06.title">
+                <source>Read Left to Right</source>
+                <note>Class = "NSMenuItem"; title = "Read Left to Right"; ObjectID = "yVa-HJ-R06";</note>
+            </trans-unit>
+            <trans-unit id="yrR-ne-rD4.title">
+                <source>Save as Image...</source>
+                <note>Class = "NSMenuItem"; title = "Save as Image..."; ObjectID = "yrR-ne-rD4";</note>
+            </trans-unit>
+            <trans-unit id="zLR-f5-dAd.title">
+                <source>Zoom In</source>
+                <note>Class = "NSMenuItem"; title = "Zoom In"; ObjectID = "zLR-f5-dAd";</note>
+            </trans-unit>
+            <trans-unit id="zuf-ZV-U5Z.title">
+                <source>Read Right to Left</source>
+                <note>Class = "NSMenuItem"; title = "Read Right to Left"; ObjectID = "zuf-ZV-U5Z";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="ComicReader/Base.lproj/ComicWindow.xib" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="3ov-bV-aZu.title">
+                <source>Cancel</source>
+                <note>Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3ov-bV-aZu";</note>
+            </trans-unit>
+            <trans-unit id="e33-Cw-4z8.title">
+                <source>Arrange page layout ...</source>
+                <note>Class = "NSTextFieldCell"; title = "Arrange page layout ..."; ObjectID = "e33-Cw-4z8";</note>
+            </trans-unit>
+            <trans-unit id="l9w-JB-Sd7.title">
+                <source>Comic Loading</source>
+                <note>Class = "NSWindow"; title = "Comic Loading"; ObjectID = "l9w-JB-Sd7";</note>
+            </trans-unit>
+            <trans-unit id="xOd-HO-29H.title">
+                <source>Window</source>
+                <note>Class = "NSWindow"; title = "Window"; ObjectID = "xOd-HO-29H";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="ComicReader/Info.plist" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="CFBundleName">
+                <source>$(PRODUCT_NAME)</source>
+            </trans-unit>
+            <trans-unit id="CFBundleShortVersionString">
+                <source>1.5.6</source>
+            </trans-unit>
+            <trans-unit id="NSHumanReadableCopyright">
+                <source>Copyright © 2014~2015 Yet Reader Forge. All rights reserved.</source>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="ComicReader/Localizable.strings" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="AirDrop .%@ file">
+                <source>AirDrop .%@ file</source>
+                <note>AirDrop</note>
+            </trans-unit>
+            <trans-unit id="AirDrop PDF or EPUB">
+                <source>AirDrop PDF or EPUB</source>
+                <note>AirDrop PDF</note>
+            </trans-unit>
+            <trans-unit id="Apply to">
+                <source>Apply to</source>
+                <note>Title</note>
+            </trans-unit>
+            <trans-unit id="Arrange page layout ... ">
+                <source>Arrange page layout ... </source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Automatic Detection">
+                <source>Automatic Detection</source>
+                <note>Option in the encoding pop-up to detect the encoding automatically</note>
+            </trans-unit>
+            <trans-unit id="Cancel">
+                <source>Cancel</source>
+                <note>AirDrop cancel</note>
+            </trans-unit>
+            <trans-unit id="Choose">
+                <source>Choose</source>
+                <note>Prompt</note>
+            </trans-unit>
+            <trans-unit id="Default encoding">
+                <source>Default encoding</source>
+                <note>Option in the password encoding pop-up to use the default encoding</note>
+            </trans-unit>
+            <trans-unit id="Do you want to send the file converted into PDF, EPUB?">
+                <source>Do you want to send the file converted into PDF, EPUB?</source>
+                <note>AirDrop informative</note>
+            </trans-unit>
+            <trans-unit id="Export">
+                <source>Export</source>
+                <note>Prompt</note>
+            </trans-unit>
+            <trans-unit id="Export as CBZ">
+                <source>Export as CBZ</source>
+                <note>Name Field Label</note>
+            </trans-unit>
+            <trans-unit id="Export as EPUB">
+                <source>Export as EPUB</source>
+                <note>Name Field Label
+                    Title</note>
+            </trans-unit>
+            <trans-unit id="Export as EPUB ...">
+                <source>Export as EPUB ...</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Export as ICNS">
+                <source>Export as ICNS</source>
+                <note>Name Field Label</note>
+            </trans-unit>
+            <trans-unit id="Export as Images ... ">
+                <source>Export as Images ... </source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Export as PDF">
+                <source>Export as PDF</source>
+                <note>Name Field Label
+                    Title</note>
+            </trans-unit>
+            <trans-unit id="Export as PDF ... ">
+                <source>Export as PDF ... </source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Export as image files">
+                <source>Export as image files</source>
+                <note>Name Field Label
+                    Title</note>
+            </trans-unit>
+            <trans-unit id="Hide Thumbnails">
+                <source>Hide Thumbnails</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Save">
+                <source>Save</source>
+                <note>Prompt</note>
+            </trans-unit>
+            <trans-unit id="Save Icon as">
+                <source>Save Icon as</source>
+                <note>Title</note>
+            </trans-unit>
+            <trans-unit id="Save Page as Image">
+                <source>Save Page as Image</source>
+                <note>Name Field Label
+                    Title</note>
+            </trans-unit>
+            <trans-unit id="Save as">
+                <source>Save as</source>
+                <note>Title</note>
+            </trans-unit>
+            <trans-unit id="Save as %@">
+                <source>Save as %@</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Save as PNG">
+                <source>Save as PNG</source>
+                <note>Name Field Label</note>
+            </trans-unit>
+            <trans-unit id="Send">
+                <source>Send</source>
+                <note>AirDrop asis disabled</note>
+            </trans-unit>
+            <trans-unit id="Send .%@">
+                <source>Send .%@</source>
+                <note>AirDrop asis</note>
+            </trans-unit>
+            <trans-unit id="Send as EPUB">
+                <source>Send as EPUB</source>
+                <note>AirDrop convert into EPUB then send</note>
+            </trans-unit>
+            <trans-unit id="Send as PDF">
+                <source>Send as PDF</source>
+                <note>AirDrop convert into PDF then send</note>
+            </trans-unit>
+            <trans-unit id="Show Thumbnails">
+                <source>Show Thumbnails</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Show this dialog when Yet Comic Reader starts">
+                <source>Show this dialog when Yet Comic Reader starts</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Start SlideShow">
+                <source>Start SlideShow</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Stop SlideShow">
+                <source>Stop SlideShow</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="EPUBQuickLook/Info.plist" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="CFBundleName">
+                <source>$(PRODUCT_NAME)</source>
+            </trans-unit>
+            <trans-unit id="CFBundleShortVersionString">
+                <source>1.0</source>
+            </trans-unit>
+            <trans-unit id="NSHumanReadableCopyright">
+                <source>Copyright © 2014 Yet Reader Forge. All rights reserved.</source>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="EPUBReader/Base.lproj/EPUBMainMenu.xib" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="1UK-8n-QPP.title">
+                <source>Customize Toolbar…</source>
+                <target>Customize Toolbar…</target>
+            </trans-unit>
+            <trans-unit id="1Xt-HY-uBw.title">
+                <source>Yet EPUB Reader</source>
+                <target>Yet EPUB Reader</target>
+                <note>Class = "NSMenuItem"; title = "Yet EPUB Reader"; ObjectID = "1Xt-HY-uBw";</note>
+            </trans-unit>
+            <trans-unit id="4B4-qC-IVz.title">
+                <source>Previous Chapter</source>
+                <target>이전 챕터</target>
+                <note>Class = "NSMenuItem"; title = "Previous Chapter"; ObjectID = "4B4-qC-IVz";</note>
+            </trans-unit>
+            <trans-unit id="4sb-4s-VLi.title">
+                <source>Quit Yet EPUB Reader</source>
+                <target>Yet EPUB Reader 종료</target>
+                <note>Class = "NSMenuItem"; title = "Quit Yet EPUB Reader"; ObjectID = "4sb-4s-VLi";</note>
+            </trans-unit>
+            <trans-unit id="5kV-Vb-QxS.title">
+                <source>About Yet EPUB Reader</source>
+                <target>Yet EPUB Reader에 대하여</target>
+                <note>Class = "NSMenuItem"; title = "About Yet EPUB Reader"; ObjectID = "5kV-Vb-QxS";</note>
+            </trans-unit>
+            <trans-unit id="AYu-sK-qS6.title">
+                <source>Main Menu</source>
+                <target>메인 메뉴</target>
+                <note>Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6";</note>
+            </trans-unit>
+            <trans-unit id="BOF-NM-1cW.title">
+                <source>Preferences…</source>
+                <target>환경설정…</target>
+                <note>Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW";</note>
+            </trans-unit>
+            <trans-unit id="DTk-JC-i7u.title">
+                <source>Export Memo...</source>
+                <target>사용자 메모 저장...</target>
+                <note>Class = "NSMenuItem"; title = "Export Memo..."; ObjectID = "DTk-JC-i7u";</note>
+            </trans-unit>
+            <trans-unit id="DVo-aG-piG.title">
+                <source>Close</source>
+                <target>닫기</target>
+                <note>Class = "NSMenuItem"; title = "Close"; ObjectID = "DVo-aG-piG";</note>
+            </trans-unit>
+            <trans-unit id="F2S-fz-NVQ.title">
+                <source>Help</source>
+                <target>도움말</target>
+                <note>Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ";</note>
+            </trans-unit>
+            <trans-unit id="FKE-Sm-Kum.title">
+                <source>Yet EPUB Reader Help</source>
+                <target>Yet EPUB Reader 도움말</target>
+                <note>Class = "NSMenuItem"; title = "Yet EPUB Reader Help"; ObjectID = "FKE-Sm-Kum";</note>
+            </trans-unit>
+            <trans-unit id="H8h-7b-M4v.title">
+                <source>View</source>
+                <target>보기</target>
+                <note>Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v";</note>
+            </trans-unit>
+            <trans-unit id="HyV-fh-RgO.title">
+                <source>View</source>
+                <target>보기</target>
+                <note>Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO";</note>
+            </trans-unit>
+            <trans-unit id="IAo-SY-fd9.title">
+                <source>Open…</source>
+                <target>열기…</target>
+                <note>Class = "NSMenuItem"; title = "Open…"; ObjectID = "IAo-SY-fd9";</note>
+            </trans-unit>
+            <trans-unit id="Kd2-mp-pUS.title">
+                <source>Show All</source>
+                <target>모두 보기</target>
+                <note>Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS";</note>
+            </trans-unit>
+            <trans-unit id="LE2-aR-0XJ.title">
+                <source>Bring All to Front</source>
+                <target>모두 앞으로 가져오기</target>
+                <note>Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ";</note>
+            </trans-unit>
+            <trans-unit id="NMo-om-nkz.title">
+                <source>Services</source>
+                <target>서비스</target>
+                <note>Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz";</note>
+            </trans-unit>
+            <trans-unit id="OY7-WF-poV.title">
+                <source>Minimize</source>
+                <target>최소화</target>
+                <note>Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV";</note>
+            </trans-unit>
+            <trans-unit id="Olw-nP-bQN.title">
+                <source>Hide Yet EPUB Reader</source>
+                <target>Yet EPUB Reader 숨기기</target>
+                <note>Class = "NSMenuItem"; title = "Hide EPUBReader"; ObjectID = "Olw-nP-bQN";</note>
+            </trans-unit>
+            <trans-unit id="PbP-af-yGC.title">
+                <source>Go</source>
+                <target>이동</target>
+                <note>Class = "NSMenuItem"; title = "Go"; ObjectID = "PbP-af-yGC";</note>
+            </trans-unit>
+            <trans-unit id="R4o-n2-Eq4.title">
+                <source>Zoom</source>
+                <target>확대/축소</target>
+                <note>Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4";</note>
+            </trans-unit>
+            <trans-unit id="Td7-aD-5lo.title">
+                <source>Window</source>
+                <target>윈도우</target>
+                <note>Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo";</note>
+            </trans-unit>
+            <trans-unit id="Vdr-fp-XzO.title">
+                <source>Hide Others</source>
+                <target>다른 위도우 숨기기</target>
+                <note>Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO";</note>
+            </trans-unit>
+            <trans-unit id="aUF-d1-5bR.title">
+                <source>Window</source>
+                <target>윈도우</target>
+                <note>Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR";</note>
+            </trans-unit>
+            <trans-unit id="bib-Uj-vzu.title">
+                <source>File</source>
+                <target>파일</target>
+                <note>Class = "NSMenu"; title = "File"; ObjectID = "bib-Uj-vzu";</note>
+            </trans-unit>
+            <trans-unit id="dMs-cI-mzQ.title">
+                <source>File</source>
+                <target>파일</target>
+                <note>Class = "NSMenuItem"; title = "File"; ObjectID = "dMs-cI-mzQ";</note>
+            </trans-unit>
+            <trans-unit id="hz9-B4-Xy5.title">
+                <source>Services</source>
+                <target>서비스</target>
+                <note>Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5";</note>
+            </trans-unit>
+            <trans-unit id="jxT-CU-nIS.title">
+                <source>Format</source>
+                <target>포맷</target>
+            </trans-unit>
+            <trans-unit id="lfD-jN-AxC.title">
+                <source>Show open dialog when startup</source>
+                <target>시작할 때 열기 대화상자 보여주기</target>
+                <note>Class = "NSMenuItem"; title = "Show open dialog when startup"; ObjectID = "lfD-jN-AxC";</note>
+            </trans-unit>
+            <trans-unit id="lgD-kW-NzT.title">
+                <source>Send via AirDrop</source>
+                <note>Class = "NSMenuItem"; title = "Send via AirDrop"; ObjectID = "lgD-kW-NzT";</note>
+            </trans-unit>
+            <trans-unit id="oQz-xo-uJU.title">
+                <source>Enter Full Screen</source>
+                <target>전체화면으로 보기</target>
+                <note>Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "oQz-xo-uJU";</note>
+            </trans-unit>
+            <trans-unit id="oas-Oc-fiZ.title">
+                <source>Open Recent</source>
+                <target>최근 파일</target>
+                <note>Class = "NSMenu"; title = "Open Recent"; ObjectID = "oas-Oc-fiZ";</note>
+            </trans-unit>
+            <trans-unit id="p2U-Rw-bzb.title">
+                <source>Go</source>
+                <target>이동</target>
+                <note>Class = "NSMenu"; title = "Go"; ObjectID = "p2U-Rw-bzb";</note>
+            </trans-unit>
+            <trans-unit id="snW-S8-Cw5.title">
+                <source>Show Toolbar</source>
+                <target>Show Toolbar</target>
+            </trans-unit>
+            <trans-unit id="tXI-mr-wws.title">
+                <source>Open Recent</source>
+                <target>최근 파일</target>
+                <note>Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "tXI-mr-wws";</note>
+            </trans-unit>
+            <trans-unit id="uQy-DD-JDr.title">
+                <source>Yet EPUB Reader</source>
+                <target>Yet EPUB Reader</target>
+                <note>Class = "NSMenu"; title = "Yet EPUB Reader"; ObjectID = "uQy-DD-JDr";</note>
+            </trans-unit>
+            <trans-unit id="vNY-rz-j42.title">
+                <source>Clear Menu</source>
+                <target>목록 지우기</target>
+                <note>Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "vNY-rz-j42";</note>
+            </trans-unit>
+            <trans-unit id="wpr-3q-Mcd.title">
+                <source>Help</source>
+                <target>도움말</target>
+                <note>Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd";</note>
+            </trans-unit>
+            <trans-unit id="yGy-io-wgm.title">
+                <source>Next Chapter</source>
+                <target>다음 챕터</target>
+                <note>Class = "NSMenuItem"; title = "Next Chapter"; ObjectID = "yGy-io-wgm";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="EPUBReader/Base.lproj/ReaderAnnotationCellView.xib" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="0jw-1b-56m.title">
+                <source>Table View Cell</source>
+                <target>Table View Cell</target>
+                <note>Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "0jw-1b-56m";</note>
+            </trans-unit>
+            <trans-unit id="3Wr-a0-SSh.placeholderString">
+                <source>Add Note</source>
+                <target>노트 추가</target>
+                <note>Class = "NSTextFieldCell"; placeholderString = "Add Note"; ObjectID = "3Wr-a0-SSh";</note>
+            </trans-unit>
+            <trans-unit id="DTH-bm-YHi.title">
+                <source>Delete this note?</source>
+                <target>삭제하시겠습니까?</target>
+                <note>Class = "NSTextFieldCell"; title = "Delete this note?"; ObjectID = "DTH-bm-YHi";</note>
+            </trans-unit>
+            <trans-unit id="FT8-eo-nCd.title">
+                <source>Delete</source>
+                <target>삭제</target>
+                <note>Class = "NSButtonCell"; title = "Delete"; ObjectID = "FT8-eo-nCd";</note>
+            </trans-unit>
+            <trans-unit id="VK6-O2-pKE.title">
+                <source>Table View Cell</source>
+                <target>Table View Cell</target>
+                <note>Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "VK6-O2-pKE";</note>
+            </trans-unit>
+            <trans-unit id="XK7-TT-GrU.title">
+                <source>Box</source>
+                <target>Box</target>
+                <note>Class = "NSBox"; title = "Box"; ObjectID = "XK7-TT-GrU";</note>
+            </trans-unit>
+            <trans-unit id="pl9-WW-Ec0.title">
+                <source>9999</source>
+                <target>9999</target>
+                <note>Class = "NSTextFieldCell"; title = "9999"; ObjectID = "pl9-WW-Ec0";</note>
+            </trans-unit>
+            <trans-unit id="zhW-HT-hQF.title">
+                <source>Cancel</source>
+                <target>취소</target>
+                <note>Class = "NSButtonCell"; title = "Cancel"; ObjectID = "zhW-HT-hQF";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="EPUBReader/Base.lproj/ReaderAppearanceController.xib" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="2Zi-ab-tXU.title">
+                <source>Seravek</source>
+                <target>Seravek</target>
+                <note>Class = "NSButtonCell"; title = "Seravek"; ObjectID = "2Zi-ab-tXU";</note>
+            </trans-unit>
+            <trans-unit id="42V-pa-h2Y.title">
+                <source>Appearance</source>
+                <target>모양새</target>
+                <note>Class = "NSTextFieldCell"; title = "Appearance"; ObjectID = "42V-pa-h2Y";</note>
+            </trans-unit>
+            <trans-unit id="B7c-VO-dVS.title">
+                <source>Item 1</source>
+                <target>Item 1</target>
+                <note>Class = "NSMenuItem"; title = "Item 1"; ObjectID = "B7c-VO-dVS";</note>
+            </trans-unit>
+            <trans-unit id="C91-Y4-NLF.title">
+                <source>Item 2</source>
+                <target>Item 2</target>
+                <note>Class = "NSMenuItem"; title = "Item 2"; ObjectID = "C91-Y4-NLF";</note>
+            </trans-unit>
+            <trans-unit id="FjX-vu-x8c.title">
+                <source>Times New Roman</source>
+                <target>Times New Roman</target>
+                <note>Class = "NSButtonCell"; title = "Times New Roman"; ObjectID = "FjX-vu-x8c";</note>
+            </trans-unit>
+            <trans-unit id="ZIE-or-Xf9.title">
+                <source>Item 3</source>
+                <target>Item 3</target>
+                <note>Class = "NSMenuItem"; title = "Item 3"; ObjectID = "ZIE-or-Xf9";</note>
+            </trans-unit>
+            <trans-unit id="beC-Op-xJw.title">
+                <source>Radio</source>
+                <target>Radio</target>
+                <note>Class = "NSButtonCell"; title = "Radio"; ObjectID = "beC-Op-xJw";</note>
+            </trans-unit>
+            <trans-unit id="dvi-Uu-xh8.title">
+                <source>Palatino</source>
+                <target>Palatino</target>
+                <note>Class = "NSButtonCell"; title = "Palatino"; ObjectID = "dvi-Uu-xh8";</note>
+            </trans-unit>
+            <trans-unit id="qGq-sC-Wmu.title">
+                <source>Athelas</source>
+                <target>Athelas</target>
+                <note>Class = "NSButtonCell"; title = "Athelas"; ObjectID = "qGq-sC-Wmu";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="EPUBReader/Base.lproj/ReaderTocController.xib" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="L9n-wX-HGQ.title">
+                <source>Text Cell</source>
+                <note>Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "L9n-wX-HGQ";</note>
+            </trans-unit>
+            <trans-unit id="NPT-X5-S3s.title">
+                <source>Label</source>
+                <note>Class = "NSTextFieldCell"; title = "Label"; ObjectID = "NPT-X5-S3s";</note>
+            </trans-unit>
+            <trans-unit id="nr8-BY-wt7.title">
+                <source>Text Cell</source>
+                <note>Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "nr8-BY-wt7";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="EPUBReader/Base.lproj/ReaderWindow.xib" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="a7O-Cz-kmu.title">
+                <source>Page</source>
+                <note>Class = "NSTextFieldCell"; title = "Page"; ObjectID = "a7O-Cz-kmu";</note>
+            </trans-unit>
+            <trans-unit id="kBE-Uw-pe4.title">
+                <source>Chapter page</source>
+                <note>Class = "NSTextFieldCell"; title = "Chapter page"; ObjectID = "kBE-Uw-pe4";</note>
+            </trans-unit>
+            <trans-unit id="r6I-7m-Svz.title">
+                <source>Table View Cell</source>
+                <note>Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "r6I-7m-Svz";</note>
+            </trans-unit>
+            <trans-unit id="tcv-RZ-Kn4.title">
+                <source>Text Cell</source>
+                <note>Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "tcv-RZ-Kn4";</note>
+            </trans-unit>
+            <trans-unit id="xOd-HO-29H.title">
+                <source>Window</source>
+                <note>Class = "NSWindow"; title = "Window"; ObjectID = "xOd-HO-29H";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="EPUBReader/Info.plist" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="CFBundleName">
+                <source>$(PRODUCT_NAME)</source>
+            </trans-unit>
+            <trans-unit id="CFBundleShortVersionString">
+                <source>1.3.4</source>
+            </trans-unit>
+            <trans-unit id="NSHumanReadableCopyright">
+                <source>Copyright © 2014 Yet Reader Forge. All rights reserved.</source>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="EPUBReader/Localizable.strings" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="Export">
+                <source>Export</source>
+                <target>익스포트</target>
+                <note>Prompt</note>
+            </trans-unit>
+            <trans-unit id="Export File">
+                <source>Export File</source>
+                <target>익스포트 파일</target>
+                <note>Name Field Label</note>
+            </trans-unit>
+            <trans-unit id="Export Memo">
+                <source>Export Memo</source>
+                <target>메모 익스포트</target>
+                <note>Title</note>
+            </trans-unit>
+            <trans-unit id="Open the exported file">
+                <source>Open the exported file</source>
+                <target>완료 후 익스포트된 파일 열기</target>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Show this dialog when Yet EPUB Reader starts">
+                <source>Show this dialog when Yet EPUB Reader starts</source>
+                <target>Yet EPUB Reader를 시작할 때 이 대화창을 항상 보여주기</target>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="x3epubTests/Info.plist" source-language="en" datatype="plaintext" target-language="ko">
+        <header>
+            <tool tool-version="6.3" build-num="6D570" tool-id="com.apple.dt.xcode" tool-name="Xcode"/>
+        </header>
+        <body>
+            <trans-unit id="CFBundleName">
+                <source>$(PRODUCT_NAME)</source>
+            </trans-unit>
+            <trans-unit id="CFBundleShortVersionString">
+                <source>1.0</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
