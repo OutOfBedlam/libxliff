@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46424B2C1C4734F80051F444 /* XliffBodyElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B141C4734F80051F444 /* XliffBodyElement.m */; };
+		46424B2D1C4734F80051F444 /* XliffCountElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B151C4734F80051F444 /* XliffCountElement.m */; };
+		46424B2E1C4734F80051F444 /* XliffCountGroupElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B161C4734F80051F444 /* XliffCountGroupElement.m */; };
+		46424B2F1C4734F80051F444 /* XliffElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B171C4734F80051F444 /* XliffElement.m */; };
+		46424B301C4734F80051F444 /* XliffExternalFileElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B181C4734F80051F444 /* XliffExternalFileElement.m */; };
+		46424B311C4734F80051F444 /* XliffFileElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B191C4734F80051F444 /* XliffFileElement.m */; };
+		46424B321C4734F80051F444 /* XliffGlossary.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1A1C4734F80051F444 /* XliffGlossary.m */; };
+		46424B331C4734F80051F444 /* XliffGroupElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1B1C4734F80051F444 /* XliffGroupElement.m */; };
+		46424B341C4734F80051F444 /* XliffHeaderElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1C1C4734F80051F444 /* XliffHeaderElement.m */; };
+		46424B351C4734F80051F444 /* XliffInternalFileElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1D1C4734F80051F444 /* XliffInternalFileElement.m */; };
+		46424B361C4734F80051F444 /* XliffNoteElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1E1C4734F80051F444 /* XliffNoteElement.m */; };
+		46424B371C4734F80051F444 /* XliffObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1F1C4734F80051F444 /* XliffObject.m */; };
+		46424B381C4734F80051F444 /* XliffParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B201C4734F80051F444 /* XliffParser.h */; };
+		46424B391C4734F80051F444 /* XliffParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B211C4734F80051F444 /* XliffParser.m */; };
+		46424B3A1C4734F80051F444 /* XliffPhaseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B221C4734F80051F444 /* XliffPhaseElement.m */; };
+		46424B3B1C4734F80051F444 /* XliffPhaseGroupElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B231C4734F80051F444 /* XliffPhaseGroupElement.m */; };
+		46424B3C1C4734F80051F444 /* XliffPropElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B241C4734F80051F444 /* XliffPropElement.m */; };
+		46424B3D1C4734F80051F444 /* XliffPropGroupElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B251C4734F80051F444 /* XliffPropGroupElement.m */; };
+		46424B3E1C4734F80051F444 /* XliffReferenceElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B261C4734F80051F444 /* XliffReferenceElement.m */; };
+		46424B3F1C4734F80051F444 /* XliffSklElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B271C4734F80051F444 /* XliffSklElement.m */; };
+		46424B401C4734F80051F444 /* XliffSourceElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B281C4734F80051F444 /* XliffSourceElement.m */; };
+		46424B411C4734F80051F444 /* XliffTargetElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B291C4734F80051F444 /* XliffTargetElement.m */; };
+		46424B421C4734F80051F444 /* xliffToolElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B2A1C4734F80051F444 /* xliffToolElement.m */; };
+		46424B431C4734F80051F444 /* XliffTransUnitElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B2B1C4734F80051F444 /* XliffTransUnitElement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46424AA51C47337B0051F444 /* liblibxliff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibxliff.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46424B141C4734F80051F444 /* XliffBodyElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffBodyElement.m; sourceTree = "<group>"; };
+		46424B151C4734F80051F444 /* XliffCountElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffCountElement.m; sourceTree = "<group>"; };
+		46424B161C4734F80051F444 /* XliffCountGroupElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffCountGroupElement.m; sourceTree = "<group>"; };
+		46424B171C4734F80051F444 /* XliffElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffElement.m; sourceTree = "<group>"; };
+		46424B181C4734F80051F444 /* XliffExternalFileElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffExternalFileElement.m; sourceTree = "<group>"; };
+		46424B191C4734F80051F444 /* XliffFileElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffFileElement.m; sourceTree = "<group>"; };
+		46424B1A1C4734F80051F444 /* XliffGlossary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffGlossary.m; sourceTree = "<group>"; };
+		46424B1B1C4734F80051F444 /* XliffGroupElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffGroupElement.m; sourceTree = "<group>"; };
+		46424B1C1C4734F80051F444 /* XliffHeaderElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffHeaderElement.m; sourceTree = "<group>"; };
+		46424B1D1C4734F80051F444 /* XliffInternalFileElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffInternalFileElement.m; sourceTree = "<group>"; };
+		46424B1E1C4734F80051F444 /* XliffNoteElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffNoteElement.m; sourceTree = "<group>"; };
+		46424B1F1C4734F80051F444 /* XliffObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffObject.m; sourceTree = "<group>"; };
+		46424B201C4734F80051F444 /* XliffParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffParser.h; sourceTree = "<group>"; };
+		46424B211C4734F80051F444 /* XliffParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffParser.m; sourceTree = "<group>"; };
+		46424B221C4734F80051F444 /* XliffPhaseElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffPhaseElement.m; sourceTree = "<group>"; };
+		46424B231C4734F80051F444 /* XliffPhaseGroupElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffPhaseGroupElement.m; sourceTree = "<group>"; };
+		46424B241C4734F80051F444 /* XliffPropElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffPropElement.m; sourceTree = "<group>"; };
+		46424B251C4734F80051F444 /* XliffPropGroupElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffPropGroupElement.m; sourceTree = "<group>"; };
+		46424B261C4734F80051F444 /* XliffReferenceElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffReferenceElement.m; sourceTree = "<group>"; };
+		46424B271C4734F80051F444 /* XliffSklElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffSklElement.m; sourceTree = "<group>"; };
+		46424B281C4734F80051F444 /* XliffSourceElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffSourceElement.m; sourceTree = "<group>"; };
+		46424B291C4734F80051F444 /* XliffTargetElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffTargetElement.m; sourceTree = "<group>"; };
+		46424B2A1C4734F80051F444 /* xliffToolElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xliffToolElement.m; sourceTree = "<group>"; };
+		46424B2B1C4734F80051F444 /* XliffTransUnitElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffTransUnitElement.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46424AA21C47337B0051F444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46424A9C1C47337B0051F444 = {
+			isa = PBXGroup;
+			children = (
+				46424B131C4734DF0051F444 /* libxliff */,
+				46424AA61C47337B0051F444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46424AA61C47337B0051F444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46424AA51C47337B0051F444 /* liblibxliff.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46424B131C4734DF0051F444 /* libxliff */ = {
+			isa = PBXGroup;
+			children = (
+				46424B141C4734F80051F444 /* XliffBodyElement.m */,
+				46424B151C4734F80051F444 /* XliffCountElement.m */,
+				46424B161C4734F80051F444 /* XliffCountGroupElement.m */,
+				46424B171C4734F80051F444 /* XliffElement.m */,
+				46424B181C4734F80051F444 /* XliffExternalFileElement.m */,
+				46424B191C4734F80051F444 /* XliffFileElement.m */,
+				46424B1A1C4734F80051F444 /* XliffGlossary.m */,
+				46424B1B1C4734F80051F444 /* XliffGroupElement.m */,
+				46424B1C1C4734F80051F444 /* XliffHeaderElement.m */,
+				46424B1D1C4734F80051F444 /* XliffInternalFileElement.m */,
+				46424B1E1C4734F80051F444 /* XliffNoteElement.m */,
+				46424B1F1C4734F80051F444 /* XliffObject.m */,
+				46424B201C4734F80051F444 /* XliffParser.h */,
+				46424B211C4734F80051F444 /* XliffParser.m */,
+				46424B221C4734F80051F444 /* XliffPhaseElement.m */,
+				46424B231C4734F80051F444 /* XliffPhaseGroupElement.m */,
+				46424B241C4734F80051F444 /* XliffPropElement.m */,
+				46424B251C4734F80051F444 /* XliffPropGroupElement.m */,
+				46424B261C4734F80051F444 /* XliffReferenceElement.m */,
+				46424B271C4734F80051F444 /* XliffSklElement.m */,
+				46424B281C4734F80051F444 /* XliffSourceElement.m */,
+				46424B291C4734F80051F444 /* XliffTargetElement.m */,
+				46424B2A1C4734F80051F444 /* xliffToolElement.m */,
+				46424B2B1C4734F80051F444 /* XliffTransUnitElement.m */,
+			);
+			name = libxliff;
+			path = ../libxliff;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46424AA31C47337B0051F444 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46424B381C4734F80051F444 /* XliffParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46424AA41C47337B0051F444 /* libxliff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46424AAE1C47337B0051F444 /* Build configuration list for PBXNativeTarget "libxliff" */;
+			buildPhases = (
+				46424AA11C47337B0051F444 /* Sources */,
+				46424AA21C47337B0051F444 /* Frameworks */,
+				46424AA31C47337B0051F444 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libxliff;
+			productName = libxliff;
+			productReference = 46424AA51C47337B0051F444 /* liblibxliff.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46424A9D1C47337B0051F444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yet Reader Forge";
+				TargetAttributes = {
+					46424AA41C47337B0051F444 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 46424AA01C47337B0051F444 /* Build configuration list for PBXProject "libxliff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46424A9C1C47337B0051F444;
+			productRefGroup = 46424AA61C47337B0051F444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46424AA41C47337B0051F444 /* libxliff */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46424AA11C47337B0051F444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46424B2F1C4734F80051F444 /* XliffElement.m in Sources */,
+				46424B431C4734F80051F444 /* XliffTransUnitElement.m in Sources */,
+				46424B3F1C4734F80051F444 /* XliffSklElement.m in Sources */,
+				46424B3C1C4734F80051F444 /* XliffPropElement.m in Sources */,
+				46424B3E1C4734F80051F444 /* XliffReferenceElement.m in Sources */,
+				46424B411C4734F80051F444 /* XliffTargetElement.m in Sources */,
+				46424B2E1C4734F80051F444 /* XliffCountGroupElement.m in Sources */,
+				46424B311C4734F80051F444 /* XliffFileElement.m in Sources */,
+				46424B3B1C4734F80051F444 /* XliffPhaseGroupElement.m in Sources */,
+				46424B2D1C4734F80051F444 /* XliffCountElement.m in Sources */,
+				46424B371C4734F80051F444 /* XliffObject.m in Sources */,
+				46424B301C4734F80051F444 /* XliffExternalFileElement.m in Sources */,
+				46424B391C4734F80051F444 /* XliffParser.m in Sources */,
+				46424B341C4734F80051F444 /* XliffHeaderElement.m in Sources */,
+				46424B3A1C4734F80051F444 /* XliffPhaseElement.m in Sources */,
+				46424B361C4734F80051F444 /* XliffNoteElement.m in Sources */,
+				46424B3D1C4734F80051F444 /* XliffPropGroupElement.m in Sources */,
+				46424B401C4734F80051F444 /* XliffSourceElement.m in Sources */,
+				46424B2C1C4734F80051F444 /* XliffBodyElement.m in Sources */,
+				46424B331C4734F80051F444 /* XliffGroupElement.m in Sources */,
+				46424B321C4734F80051F444 /* XliffGlossary.m in Sources */,
+				46424B421C4734F80051F444 /* xliffToolElement.m in Sources */,
+				46424B351C4734F80051F444 /* XliffInternalFileElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46424AAC1C47337B0051F444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		46424AAD1C47337B0051F444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46424AAF1C47337B0051F444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46424AB01C47337B0051F444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46424AA01C47337B0051F444 /* Build configuration list for PBXProject "libxliff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46424AAC1C47337B0051F444 /* Debug */,
+				46424AAD1C47337B0051F444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46424AAE1C47337B0051F444 /* Build configuration list for PBXNativeTarget "libxliff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46424AAF1C47337B0051F444 /* Debug */,
+				46424AB01C47337B0051F444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46424A9D1C47337B0051F444 /* Project object */;
+}
