@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #import "XliffParser.h"
+#import "XliffObject.h"
 
 @interface XliffObjectAttribute : NSObject
 @property NSString *key;

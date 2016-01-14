@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "XliffParser.h"
+#import "libxliff.h"
 
 @interface XliffElement()
 {

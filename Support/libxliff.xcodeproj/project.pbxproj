@@ -13,7 +13,7 @@
 		46424B2F1C4734F80051F444 /* XliffElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B171C4734F80051F444 /* XliffElement.m */; };
 		46424B301C4734F80051F444 /* XliffExternalFileElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B181C4734F80051F444 /* XliffExternalFileElement.m */; };
 		46424B311C4734F80051F444 /* XliffFileElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B191C4734F80051F444 /* XliffFileElement.m */; };
-		46424B321C4734F80051F444 /* XliffGlossary.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1A1C4734F80051F444 /* XliffGlossary.m */; };
+		46424B321C4734F80051F444 /* XliffGlossaryElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1A1C4734F80051F444 /* XliffGlossaryElement.m */; };
 		46424B331C4734F80051F444 /* XliffGroupElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1B1C4734F80051F444 /* XliffGroupElement.m */; };
 		46424B341C4734F80051F444 /* XliffHeaderElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1C1C4734F80051F444 /* XliffHeaderElement.m */; };
 		46424B351C4734F80051F444 /* XliffInternalFileElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B1D1C4734F80051F444 /* XliffInternalFileElement.m */; };
@@ -34,6 +34,61 @@
 		46424B4E1C4736520051F444 /* libxliff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46424AA51C47337B0051F444 /* libxliff.a */; };
 		46424B551C4736900051F444 /* XliffParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B541C4736900051F444 /* XliffParserTest.m */; };
 		46424B571C4737FF0051F444 /* XliffParserTest.xliff in Resources */ = {isa = PBXBuildFile; fileRef = 46424B561C4737FF0051F444 /* XliffParserTest.xliff */; };
+		46424B5C1C473EBC0051F444 /* XliffObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B5B1C473EBC0051F444 /* XliffObject.h */; };
+		46424B641C47440B0051F444 /* XliffFileElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B631C47440B0051F444 /* XliffFileElement.h */; };
+		46424B651C4744170051F444 /* XliffElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B5D1C473F750051F444 /* XliffElement.h */; };
+		46424B671C4744CD0051F444 /* XliffHeaderElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B661C4744CD0051F444 /* XliffHeaderElement.h */; };
+		46424B691C47450B0051F444 /* XliffSklElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B681C47450B0051F444 /* XliffSklElement.h */; };
+		46424B6B1C4745570051F444 /* XliffInternalFileElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B6A1C4745570051F444 /* XliffInternalFileElement.h */; };
+		46424B6D1C4745910051F444 /* XliffExternalFileElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B6C1C4745910051F444 /* XliffExternalFileElement.h */; };
+		46424B6F1C4745CF0051F444 /* XliffGlossaryElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B6E1C4745CF0051F444 /* XliffGlossaryElement.h */; };
+		46424B711C4746320051F444 /* XliffReferenceElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B701C4746320051F444 /* XliffReferenceElement.h */; };
+		46424B731C4746660051F444 /* XliffPhaseGroupElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B721C4746660051F444 /* XliffPhaseGroupElement.h */; };
+		46424B751C4746B00051F444 /* XliffPhaseElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B741C4746B00051F444 /* XliffPhaseElement.h */; };
+		46424B771C4753A00051F444 /* XliffToolElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B761C4753A00051F444 /* XliffToolElement.h */; };
+		46424B791C4753ED0051F444 /* XliffNoteElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B781C4753ED0051F444 /* XliffNoteElement.h */; };
+		46424B7B1C4754570051F444 /* XliffCountGroupElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B7A1C4754570051F444 /* XliffCountGroupElement.h */; };
+		46424B7D1C4754840051F444 /* XliffCountElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B7C1C4754840051F444 /* XliffCountElement.h */; };
+		46424B7F1C4754C20051F444 /* XliffPropGroupElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B7E1C4754C20051F444 /* XliffPropGroupElement.h */; };
+		46424B811C4755100051F444 /* XliffPropElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B801C4755100051F444 /* XliffPropElement.h */; };
+		46424B831C4755650051F444 /* XliffBodyElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B821C4755650051F444 /* XliffBodyElement.h */; };
+		46424B851C4755B30051F444 /* XliffGroupElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B841C4755B30051F444 /* XliffGroupElement.h */; };
+		46424B871C4755EC0051F444 /* XliffTransUnitElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B861C4755EC0051F444 /* XliffTransUnitElement.h */; };
+		46424B891C4756140051F444 /* XliffSourceElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B881C4756140051F444 /* XliffSourceElement.h */; };
+		46424B8B1C47564E0051F444 /* XliffTargetElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B8A1C47564E0051F444 /* XliffTargetElement.h */; };
+		46424B8D1C4756F10051F444 /* libxliff.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B8C1C4756F10051F444 /* libxliff.h */; };
+		46424B901C47581D0051F444 /* XliffContextGroupElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B8E1C47581D0051F444 /* XliffContextGroupElement.h */; };
+		46424B911C47581D0051F444 /* XliffContextGroupElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B8F1C47581D0051F444 /* XliffContextGroupElement.m */; };
+		46424B941C4758810051F444 /* XliffContextElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B921C4758810051F444 /* XliffContextElement.h */; };
+		46424B951C4758810051F444 /* XliffContextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B931C4758810051F444 /* XliffContextElement.m */; };
+		46424B981C4759C30051F444 /* XliffBinUnitElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B961C4759C30051F444 /* XliffBinUnitElement.h */; };
+		46424B991C4759C30051F444 /* XliffBinUnitElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B971C4759C30051F444 /* XliffBinUnitElement.m */; };
+		46424B9C1C475A5E0051F444 /* XliffBinSourceElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B9A1C475A5E0051F444 /* XliffBinSourceElement.h */; };
+		46424B9D1C475A5E0051F444 /* XliffBinSourceElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B9B1C475A5E0051F444 /* XliffBinSourceElement.m */; };
+		46424BA01C475AA40051F444 /* XliffBinTargetElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424B9E1C475AA40051F444 /* XliffBinTargetElement.h */; };
+		46424BA11C475AA40051F444 /* XliffBinTargetElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B9F1C475AA40051F444 /* XliffBinTargetElement.m */; };
+		46424BA41C475ADF0051F444 /* XliffAltTransElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BA21C475ADF0051F444 /* XliffAltTransElement.h */; };
+		46424BA51C475ADF0051F444 /* XliffAltTransElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BA31C475ADF0051F444 /* XliffAltTransElement.m */; };
+		46424BA81C475BE00051F444 /* XliffMarkerElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BA61C475BE00051F444 /* XliffMarkerElement.h */; };
+		46424BA91C475BE00051F444 /* XliffMarkerElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BA71C475BE00051F444 /* XliffMarkerElement.m */; };
+		46424BAC1C475C6C0051F444 /* XliffGenericGroupElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BAA1C475C6C0051F444 /* XliffGenericGroupElement.h */; };
+		46424BAD1C475C6C0051F444 /* XliffGenericGroupElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BAB1C475C6C0051F444 /* XliffGenericGroupElement.m */; };
+		46424BB01C475D020051F444 /* XliffGenericElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BAE1C475D020051F444 /* XliffGenericElement.h */; };
+		46424BB11C475D020051F444 /* XliffGenericElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BAF1C475D020051F444 /* XliffGenericElement.m */; };
+		46424BB41C475D870051F444 /* XliffBeginPairedElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BB21C475D870051F444 /* XliffBeginPairedElement.h */; };
+		46424BB51C475D870051F444 /* XliffBeginPairedElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BB31C475D870051F444 /* XliffBeginPairedElement.m */; };
+		46424BB81C475DBA0051F444 /* XliffEndPairedElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BB61C475DBA0051F444 /* XliffEndPairedElement.h */; };
+		46424BB91C475DBA0051F444 /* XliffEndPairedElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BB71C475DBA0051F444 /* XliffEndPairedElement.m */; };
+		46424BBC1C475E270051F444 /* XliffBeginPairedTagElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BBA1C475E270051F444 /* XliffBeginPairedTagElement.h */; };
+		46424BBD1C475E270051F444 /* XliffBeginPairedTagElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BBB1C475E270051F444 /* XliffBeginPairedTagElement.m */; };
+		46424BC01C475E3A0051F444 /* XliffEndPairedTagElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BBE1C475E3A0051F444 /* XliffEndPairedTagElement.h */; };
+		46424BC11C475E3A0051F444 /* XliffEndPairedTagElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BBF1C475E3A0051F444 /* XliffEndPairedTagElement.m */; };
+		46424BC41C475EAC0051F444 /* XliffSubflowElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BC21C475EAC0051F444 /* XliffSubflowElement.h */; };
+		46424BC51C475EAC0051F444 /* XliffSubflowElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BC31C475EAC0051F444 /* XliffSubflowElement.m */; };
+		46424BC81C475F170051F444 /* XliffIsolatedTagElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BC61C475F170051F444 /* XliffIsolatedTagElement.h */; };
+		46424BC91C475F170051F444 /* XliffIsolatedTagElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BC71C475F170051F444 /* XliffIsolatedTagElement.m */; };
+		46424BCC1C475F850051F444 /* XliffPlaceholderElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BCA1C475F850051F444 /* XliffPlaceholderElement.h */; };
+		46424BCD1C475F850051F444 /* XliffPlaceholderElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BCB1C475F850051F444 /* XliffPlaceholderElement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +109,7 @@
 		46424B171C4734F80051F444 /* XliffElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffElement.m; sourceTree = "<group>"; };
 		46424B181C4734F80051F444 /* XliffExternalFileElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffExternalFileElement.m; sourceTree = "<group>"; };
 		46424B191C4734F80051F444 /* XliffFileElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffFileElement.m; sourceTree = "<group>"; };
-		46424B1A1C4734F80051F444 /* XliffGlossary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffGlossary.m; sourceTree = "<group>"; };
+		46424B1A1C4734F80051F444 /* XliffGlossaryElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffGlossaryElement.m; sourceTree = "<group>"; };
 		46424B1B1C4734F80051F444 /* XliffGroupElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffGroupElement.m; sourceTree = "<group>"; };
 		46424B1C1C4734F80051F444 /* XliffHeaderElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffHeaderElement.m; sourceTree = "<group>"; };
 		46424B1D1C4734F80051F444 /* XliffInternalFileElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffInternalFileElement.m; sourceTree = "<group>"; };
@@ -76,6 +131,63 @@
 		46424B4D1C4736520051F444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46424B541C4736900051F444 /* XliffParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffParserTest.m; sourceTree = "<group>"; };
 		46424B561C4737FF0051F444 /* XliffParserTest.xliff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XliffParserTest.xliff; sourceTree = "<group>"; };
+		46424B581C473D400051F444 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46424B591C473D400051F444 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46424B5B1C473EBC0051F444 /* XliffObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffObject.h; sourceTree = "<group>"; };
+		46424B5D1C473F750051F444 /* XliffElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XliffElement.h; sourceTree = "<group>"; };
+		46424B631C47440B0051F444 /* XliffFileElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffFileElement.h; sourceTree = "<group>"; };
+		46424B661C4744CD0051F444 /* XliffHeaderElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffHeaderElement.h; sourceTree = "<group>"; };
+		46424B681C47450B0051F444 /* XliffSklElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffSklElement.h; sourceTree = "<group>"; };
+		46424B6A1C4745570051F444 /* XliffInternalFileElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffInternalFileElement.h; sourceTree = "<group>"; };
+		46424B6C1C4745910051F444 /* XliffExternalFileElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffExternalFileElement.h; sourceTree = "<group>"; };
+		46424B6E1C4745CF0051F444 /* XliffGlossaryElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffGlossaryElement.h; sourceTree = "<group>"; };
+		46424B701C4746320051F444 /* XliffReferenceElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffReferenceElement.h; sourceTree = "<group>"; };
+		46424B721C4746660051F444 /* XliffPhaseGroupElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffPhaseGroupElement.h; sourceTree = "<group>"; };
+		46424B741C4746B00051F444 /* XliffPhaseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffPhaseElement.h; sourceTree = "<group>"; };
+		46424B761C4753A00051F444 /* XliffToolElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffToolElement.h; sourceTree = "<group>"; };
+		46424B781C4753ED0051F444 /* XliffNoteElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffNoteElement.h; sourceTree = "<group>"; };
+		46424B7A1C4754570051F444 /* XliffCountGroupElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffCountGroupElement.h; sourceTree = "<group>"; };
+		46424B7C1C4754840051F444 /* XliffCountElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffCountElement.h; sourceTree = "<group>"; };
+		46424B7E1C4754C20051F444 /* XliffPropGroupElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffPropGroupElement.h; sourceTree = "<group>"; };
+		46424B801C4755100051F444 /* XliffPropElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffPropElement.h; sourceTree = "<group>"; };
+		46424B821C4755650051F444 /* XliffBodyElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffBodyElement.h; sourceTree = "<group>"; };
+		46424B841C4755B30051F444 /* XliffGroupElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffGroupElement.h; sourceTree = "<group>"; };
+		46424B861C4755EC0051F444 /* XliffTransUnitElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffTransUnitElement.h; sourceTree = "<group>"; };
+		46424B881C4756140051F444 /* XliffSourceElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffSourceElement.h; sourceTree = "<group>"; };
+		46424B8A1C47564E0051F444 /* XliffTargetElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffTargetElement.h; sourceTree = "<group>"; };
+		46424B8C1C4756F10051F444 /* libxliff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libxliff.h; sourceTree = "<group>"; };
+		46424B8E1C47581D0051F444 /* XliffContextGroupElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffContextGroupElement.h; sourceTree = "<group>"; };
+		46424B8F1C47581D0051F444 /* XliffContextGroupElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffContextGroupElement.m; sourceTree = "<group>"; };
+		46424B921C4758810051F444 /* XliffContextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffContextElement.h; sourceTree = "<group>"; };
+		46424B931C4758810051F444 /* XliffContextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffContextElement.m; sourceTree = "<group>"; };
+		46424B961C4759C30051F444 /* XliffBinUnitElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffBinUnitElement.h; sourceTree = "<group>"; };
+		46424B971C4759C30051F444 /* XliffBinUnitElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffBinUnitElement.m; sourceTree = "<group>"; };
+		46424B9A1C475A5E0051F444 /* XliffBinSourceElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffBinSourceElement.h; sourceTree = "<group>"; };
+		46424B9B1C475A5E0051F444 /* XliffBinSourceElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffBinSourceElement.m; sourceTree = "<group>"; };
+		46424B9E1C475AA40051F444 /* XliffBinTargetElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffBinTargetElement.h; sourceTree = "<group>"; };
+		46424B9F1C475AA40051F444 /* XliffBinTargetElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffBinTargetElement.m; sourceTree = "<group>"; };
+		46424BA21C475ADF0051F444 /* XliffAltTransElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffAltTransElement.h; sourceTree = "<group>"; };
+		46424BA31C475ADF0051F444 /* XliffAltTransElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffAltTransElement.m; sourceTree = "<group>"; };
+		46424BA61C475BE00051F444 /* XliffMarkerElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffMarkerElement.h; sourceTree = "<group>"; };
+		46424BA71C475BE00051F444 /* XliffMarkerElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffMarkerElement.m; sourceTree = "<group>"; };
+		46424BAA1C475C6C0051F444 /* XliffGenericGroupElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffGenericGroupElement.h; sourceTree = "<group>"; };
+		46424BAB1C475C6C0051F444 /* XliffGenericGroupElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffGenericGroupElement.m; sourceTree = "<group>"; };
+		46424BAE1C475D020051F444 /* XliffGenericElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffGenericElement.h; sourceTree = "<group>"; };
+		46424BAF1C475D020051F444 /* XliffGenericElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffGenericElement.m; sourceTree = "<group>"; };
+		46424BB21C475D870051F444 /* XliffBeginPairedElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffBeginPairedElement.h; sourceTree = "<group>"; };
+		46424BB31C475D870051F444 /* XliffBeginPairedElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffBeginPairedElement.m; sourceTree = "<group>"; };
+		46424BB61C475DBA0051F444 /* XliffEndPairedElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffEndPairedElement.h; sourceTree = "<group>"; };
+		46424BB71C475DBA0051F444 /* XliffEndPairedElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffEndPairedElement.m; sourceTree = "<group>"; };
+		46424BBA1C475E270051F444 /* XliffBeginPairedTagElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffBeginPairedTagElement.h; sourceTree = "<group>"; };
+		46424BBB1C475E270051F444 /* XliffBeginPairedTagElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffBeginPairedTagElement.m; sourceTree = "<group>"; };
+		46424BBE1C475E3A0051F444 /* XliffEndPairedTagElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffEndPairedTagElement.h; sourceTree = "<group>"; };
+		46424BBF1C475E3A0051F444 /* XliffEndPairedTagElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffEndPairedTagElement.m; sourceTree = "<group>"; };
+		46424BC21C475EAC0051F444 /* XliffSubflowElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffSubflowElement.h; sourceTree = "<group>"; };
+		46424BC31C475EAC0051F444 /* XliffSubflowElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffSubflowElement.m; sourceTree = "<group>"; };
+		46424BC61C475F170051F444 /* XliffIsolatedTagElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffIsolatedTagElement.h; sourceTree = "<group>"; };
+		46424BC71C475F170051F444 /* XliffIsolatedTagElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffIsolatedTagElement.m; sourceTree = "<group>"; };
+		46424BCA1C475F850051F444 /* XliffPlaceholderElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffPlaceholderElement.h; sourceTree = "<group>"; };
+		46424BCB1C475F850051F444 /* XliffPlaceholderElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffPlaceholderElement.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +215,8 @@
 				46424B131C4734DF0051F444 /* libxliff */,
 				46424B4A1C4736520051F444 /* libxliffTests */,
 				46424AA61C47337B0051F444 /* Products */,
+				46424B581C473D400051F444 /* LICENSE */,
+				46424B591C473D400051F444 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,30 +232,16 @@
 		46424B131C4734DF0051F444 /* libxliff */ = {
 			isa = PBXGroup;
 			children = (
+				46424B8C1C4756F10051F444 /* libxliff.h */,
 				46424B201C4734F80051F444 /* XliffParser.h */,
 				46424B211C4734F80051F444 /* XliffParser.m */,
+				46424B5B1C473EBC0051F444 /* XliffObject.h */,
 				46424B1F1C4734F80051F444 /* XliffObject.m */,
-				46424B141C4734F80051F444 /* XliffBodyElement.m */,
-				46424B151C4734F80051F444 /* XliffCountElement.m */,
-				46424B161C4734F80051F444 /* XliffCountGroupElement.m */,
-				46424B171C4734F80051F444 /* XliffElement.m */,
-				46424B181C4734F80051F444 /* XliffExternalFileElement.m */,
-				46424B191C4734F80051F444 /* XliffFileElement.m */,
-				46424B1A1C4734F80051F444 /* XliffGlossary.m */,
-				46424B1B1C4734F80051F444 /* XliffGroupElement.m */,
-				46424B1C1C4734F80051F444 /* XliffHeaderElement.m */,
-				46424B1D1C4734F80051F444 /* XliffInternalFileElement.m */,
-				46424B1E1C4734F80051F444 /* XliffNoteElement.m */,
-				46424B221C4734F80051F444 /* XliffPhaseElement.m */,
-				46424B231C4734F80051F444 /* XliffPhaseGroupElement.m */,
-				46424B241C4734F80051F444 /* XliffPropElement.m */,
-				46424B251C4734F80051F444 /* XliffPropGroupElement.m */,
-				46424B261C4734F80051F444 /* XliffReferenceElement.m */,
-				46424B271C4734F80051F444 /* XliffSklElement.m */,
-				46424B281C4734F80051F444 /* XliffSourceElement.m */,
-				46424B291C4734F80051F444 /* XliffTargetElement.m */,
-				46424B2A1C4734F80051F444 /* xliffToolElement.m */,
-				46424B2B1C4734F80051F444 /* XliffTransUnitElement.m */,
+				46424B5E1C4740B10051F444 /* TopLevel */,
+				46424B5F1C4740C60051F444 /* NamedGroup */,
+				46424B601C4740DA0051F444 /* Structural */,
+				46424B611C4740E30051F444 /* Inline */,
+				46424B621C4740EA0051F444 /* Delimiter */,
 			);
 			name = libxliff;
 			path = ../libxliff;
@@ -158,6 +258,115 @@
 			path = ../libxliffTests;
 			sourceTree = "<group>";
 		};
+		46424B5E1C4740B10051F444 /* TopLevel */ = {
+			isa = PBXGroup;
+			children = (
+				46424B5D1C473F750051F444 /* XliffElement.h */,
+				46424B171C4734F80051F444 /* XliffElement.m */,
+				46424B631C47440B0051F444 /* XliffFileElement.h */,
+				46424B191C4734F80051F444 /* XliffFileElement.m */,
+				46424B661C4744CD0051F444 /* XliffHeaderElement.h */,
+				46424B1C1C4734F80051F444 /* XliffHeaderElement.m */,
+				46424B681C47450B0051F444 /* XliffSklElement.h */,
+				46424B271C4734F80051F444 /* XliffSklElement.m */,
+				46424B6C1C4745910051F444 /* XliffExternalFileElement.h */,
+				46424B181C4734F80051F444 /* XliffExternalFileElement.m */,
+				46424B6A1C4745570051F444 /* XliffInternalFileElement.h */,
+				46424B1D1C4734F80051F444 /* XliffInternalFileElement.m */,
+				46424B6E1C4745CF0051F444 /* XliffGlossaryElement.h */,
+				46424B1A1C4734F80051F444 /* XliffGlossaryElement.m */,
+				46424B701C4746320051F444 /* XliffReferenceElement.h */,
+				46424B261C4734F80051F444 /* XliffReferenceElement.m */,
+				46424B721C4746660051F444 /* XliffPhaseGroupElement.h */,
+				46424B231C4734F80051F444 /* XliffPhaseGroupElement.m */,
+				46424B741C4746B00051F444 /* XliffPhaseElement.h */,
+				46424B221C4734F80051F444 /* XliffPhaseElement.m */,
+				46424B761C4753A00051F444 /* XliffToolElement.h */,
+				46424B2A1C4734F80051F444 /* xliffToolElement.m */,
+				46424B781C4753ED0051F444 /* XliffNoteElement.h */,
+				46424B1E1C4734F80051F444 /* XliffNoteElement.m */,
+			);
+			name = TopLevel;
+			sourceTree = "<group>";
+		};
+		46424B5F1C4740C60051F444 /* NamedGroup */ = {
+			isa = PBXGroup;
+			children = (
+				46424B8E1C47581D0051F444 /* XliffContextGroupElement.h */,
+				46424B8F1C47581D0051F444 /* XliffContextGroupElement.m */,
+				46424B921C4758810051F444 /* XliffContextElement.h */,
+				46424B931C4758810051F444 /* XliffContextElement.m */,
+				46424B7A1C4754570051F444 /* XliffCountGroupElement.h */,
+				46424B161C4734F80051F444 /* XliffCountGroupElement.m */,
+				46424B7C1C4754840051F444 /* XliffCountElement.h */,
+				46424B151C4734F80051F444 /* XliffCountElement.m */,
+				46424B7E1C4754C20051F444 /* XliffPropGroupElement.h */,
+				46424B251C4734F80051F444 /* XliffPropGroupElement.m */,
+				46424B801C4755100051F444 /* XliffPropElement.h */,
+				46424B241C4734F80051F444 /* XliffPropElement.m */,
+			);
+			name = NamedGroup;
+			sourceTree = "<group>";
+		};
+		46424B601C4740DA0051F444 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				46424B821C4755650051F444 /* XliffBodyElement.h */,
+				46424B141C4734F80051F444 /* XliffBodyElement.m */,
+				46424B841C4755B30051F444 /* XliffGroupElement.h */,
+				46424B1B1C4734F80051F444 /* XliffGroupElement.m */,
+				46424B861C4755EC0051F444 /* XliffTransUnitElement.h */,
+				46424B2B1C4734F80051F444 /* XliffTransUnitElement.m */,
+				46424B881C4756140051F444 /* XliffSourceElement.h */,
+				46424B281C4734F80051F444 /* XliffSourceElement.m */,
+				46424B8A1C47564E0051F444 /* XliffTargetElement.h */,
+				46424B291C4734F80051F444 /* XliffTargetElement.m */,
+				46424B961C4759C30051F444 /* XliffBinUnitElement.h */,
+				46424B971C4759C30051F444 /* XliffBinUnitElement.m */,
+				46424B9A1C475A5E0051F444 /* XliffBinSourceElement.h */,
+				46424B9B1C475A5E0051F444 /* XliffBinSourceElement.m */,
+				46424B9E1C475AA40051F444 /* XliffBinTargetElement.h */,
+				46424B9F1C475AA40051F444 /* XliffBinTargetElement.m */,
+				46424BA21C475ADF0051F444 /* XliffAltTransElement.h */,
+				46424BA31C475ADF0051F444 /* XliffAltTransElement.m */,
+			);
+			name = Structural;
+			sourceTree = "<group>";
+		};
+		46424B611C4740E30051F444 /* Inline */ = {
+			isa = PBXGroup;
+			children = (
+				46424BAA1C475C6C0051F444 /* XliffGenericGroupElement.h */,
+				46424BAB1C475C6C0051F444 /* XliffGenericGroupElement.m */,
+				46424BAE1C475D020051F444 /* XliffGenericElement.h */,
+				46424BAF1C475D020051F444 /* XliffGenericElement.m */,
+				46424BB21C475D870051F444 /* XliffBeginPairedElement.h */,
+				46424BB31C475D870051F444 /* XliffBeginPairedElement.m */,
+				46424BB61C475DBA0051F444 /* XliffEndPairedElement.h */,
+				46424BB71C475DBA0051F444 /* XliffEndPairedElement.m */,
+				46424BBA1C475E270051F444 /* XliffBeginPairedTagElement.h */,
+				46424BBB1C475E270051F444 /* XliffBeginPairedTagElement.m */,
+				46424BBE1C475E3A0051F444 /* XliffEndPairedTagElement.h */,
+				46424BBF1C475E3A0051F444 /* XliffEndPairedTagElement.m */,
+				46424BC21C475EAC0051F444 /* XliffSubflowElement.h */,
+				46424BC31C475EAC0051F444 /* XliffSubflowElement.m */,
+				46424BC61C475F170051F444 /* XliffIsolatedTagElement.h */,
+				46424BC71C475F170051F444 /* XliffIsolatedTagElement.m */,
+				46424BCA1C475F850051F444 /* XliffPlaceholderElement.h */,
+				46424BCB1C475F850051F444 /* XliffPlaceholderElement.m */,
+			);
+			name = Inline;
+			sourceTree = "<group>";
+		};
+		46424B621C4740EA0051F444 /* Delimiter */ = {
+			isa = PBXGroup;
+			children = (
+				46424BA61C475BE00051F444 /* XliffMarkerElement.h */,
+				46424BA71C475BE00051F444 /* XliffMarkerElement.m */,
+			);
+			name = Delimiter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -165,7 +374,46 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46424B6B1C4745570051F444 /* XliffInternalFileElement.h in Headers */,
+				46424B851C4755B30051F444 /* XliffGroupElement.h in Headers */,
+				46424BB81C475DBA0051F444 /* XliffEndPairedElement.h in Headers */,
+				46424BC81C475F170051F444 /* XliffIsolatedTagElement.h in Headers */,
+				46424B891C4756140051F444 /* XliffSourceElement.h in Headers */,
+				46424BCC1C475F850051F444 /* XliffPlaceholderElement.h in Headers */,
+				46424B791C4753ED0051F444 /* XliffNoteElement.h in Headers */,
+				46424B691C47450B0051F444 /* XliffSklElement.h in Headers */,
 				46424B381C4734F80051F444 /* XliffParser.h in Headers */,
+				46424BA01C475AA40051F444 /* XliffBinTargetElement.h in Headers */,
+				46424B831C4755650051F444 /* XliffBodyElement.h in Headers */,
+				46424B711C4746320051F444 /* XliffReferenceElement.h in Headers */,
+				46424BB01C475D020051F444 /* XliffGenericElement.h in Headers */,
+				46424BC01C475E3A0051F444 /* XliffEndPairedTagElement.h in Headers */,
+				46424B8D1C4756F10051F444 /* libxliff.h in Headers */,
+				46424B7D1C4754840051F444 /* XliffCountElement.h in Headers */,
+				46424B641C47440B0051F444 /* XliffFileElement.h in Headers */,
+				46424B5C1C473EBC0051F444 /* XliffObject.h in Headers */,
+				46424B671C4744CD0051F444 /* XliffHeaderElement.h in Headers */,
+				46424B9C1C475A5E0051F444 /* XliffBinSourceElement.h in Headers */,
+				46424BA41C475ADF0051F444 /* XliffAltTransElement.h in Headers */,
+				46424B8B1C47564E0051F444 /* XliffTargetElement.h in Headers */,
+				46424B871C4755EC0051F444 /* XliffTransUnitElement.h in Headers */,
+				46424BA81C475BE00051F444 /* XliffMarkerElement.h in Headers */,
+				46424B731C4746660051F444 /* XliffPhaseGroupElement.h in Headers */,
+				46424B771C4753A00051F444 /* XliffToolElement.h in Headers */,
+				46424BB41C475D870051F444 /* XliffBeginPairedElement.h in Headers */,
+				46424B6D1C4745910051F444 /* XliffExternalFileElement.h in Headers */,
+				46424B811C4755100051F444 /* XliffPropElement.h in Headers */,
+				46424B7B1C4754570051F444 /* XliffCountGroupElement.h in Headers */,
+				46424B7F1C4754C20051F444 /* XliffPropGroupElement.h in Headers */,
+				46424B901C47581D0051F444 /* XliffContextGroupElement.h in Headers */,
+				46424B751C4746B00051F444 /* XliffPhaseElement.h in Headers */,
+				46424B981C4759C30051F444 /* XliffBinUnitElement.h in Headers */,
+				46424BBC1C475E270051F444 /* XliffBeginPairedTagElement.h in Headers */,
+				46424B941C4758810051F444 /* XliffContextElement.h in Headers */,
+				46424BAC1C475C6C0051F444 /* XliffGenericGroupElement.h in Headers */,
+				46424B6F1C4745CF0051F444 /* XliffGlossaryElement.h in Headers */,
+				46424BC41C475EAC0051F444 /* XliffSubflowElement.h in Headers */,
+				46424B651C4744170051F444 /* XliffElement.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,28 +506,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46424BBD1C475E270051F444 /* XliffBeginPairedTagElement.m in Sources */,
 				46424B2F1C4734F80051F444 /* XliffElement.m in Sources */,
+				46424B9D1C475A5E0051F444 /* XliffBinSourceElement.m in Sources */,
 				46424B431C4734F80051F444 /* XliffTransUnitElement.m in Sources */,
 				46424B3F1C4734F80051F444 /* XliffSklElement.m in Sources */,
+				46424BB51C475D870051F444 /* XliffBeginPairedElement.m in Sources */,
 				46424B3C1C4734F80051F444 /* XliffPropElement.m in Sources */,
 				46424B3E1C4734F80051F444 /* XliffReferenceElement.m in Sources */,
 				46424B411C4734F80051F444 /* XliffTargetElement.m in Sources */,
 				46424B2E1C4734F80051F444 /* XliffCountGroupElement.m in Sources */,
+				46424B991C4759C30051F444 /* XliffBinUnitElement.m in Sources */,
 				46424B311C4734F80051F444 /* XliffFileElement.m in Sources */,
 				46424B3B1C4734F80051F444 /* XliffPhaseGroupElement.m in Sources */,
 				46424B2D1C4734F80051F444 /* XliffCountElement.m in Sources */,
 				46424B371C4734F80051F444 /* XliffObject.m in Sources */,
 				46424B301C4734F80051F444 /* XliffExternalFileElement.m in Sources */,
+				46424BC91C475F170051F444 /* XliffIsolatedTagElement.m in Sources */,
+				46424BCD1C475F850051F444 /* XliffPlaceholderElement.m in Sources */,
+				46424BB91C475DBA0051F444 /* XliffEndPairedElement.m in Sources */,
 				46424B391C4734F80051F444 /* XliffParser.m in Sources */,
 				46424B341C4734F80051F444 /* XliffHeaderElement.m in Sources */,
+				46424BB11C475D020051F444 /* XliffGenericElement.m in Sources */,
 				46424B3A1C4734F80051F444 /* XliffPhaseElement.m in Sources */,
+				46424BAD1C475C6C0051F444 /* XliffGenericGroupElement.m in Sources */,
+				46424BA51C475ADF0051F444 /* XliffAltTransElement.m in Sources */,
 				46424B361C4734F80051F444 /* XliffNoteElement.m in Sources */,
 				46424B3D1C4734F80051F444 /* XliffPropGroupElement.m in Sources */,
+				46424B911C47581D0051F444 /* XliffContextGroupElement.m in Sources */,
+				46424BA11C475AA40051F444 /* XliffBinTargetElement.m in Sources */,
 				46424B401C4734F80051F444 /* XliffSourceElement.m in Sources */,
+				46424BC11C475E3A0051F444 /* XliffEndPairedTagElement.m in Sources */,
+				46424BC51C475EAC0051F444 /* XliffSubflowElement.m in Sources */,
 				46424B2C1C4734F80051F444 /* XliffBodyElement.m in Sources */,
 				46424B331C4734F80051F444 /* XliffGroupElement.m in Sources */,
-				46424B321C4734F80051F444 /* XliffGlossary.m in Sources */,
+				46424B321C4734F80051F444 /* XliffGlossaryElement.m in Sources */,
+				46424B951C4758810051F444 /* XliffContextElement.m in Sources */,
 				46424B421C4734F80051F444 /* xliffToolElement.m in Sources */,
+				46424BA91C475BE00051F444 /* XliffMarkerElement.m in Sources */,
 				46424B351C4734F80051F444 /* XliffInternalFileElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

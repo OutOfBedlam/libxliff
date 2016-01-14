@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "XliffParser.h"
+#import "libxliff.h"
 
 @interface XliffParserTest : XCTestCase
 {

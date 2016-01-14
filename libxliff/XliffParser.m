@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Yet Reader Forge. All rights reserved.
 //
 
-#import "XliffParser.h"
+#import "libxliff.h"
 
 static NSDictionary *xliffElements;
 
@@ -26,6 +26,8 @@ static NSDictionary *xliffElements;
 					@"note" : NSStringFromClass(XliffNoteElement.class),
 					@"phase-group" : NSStringFromClass(XliffPhaseGroupElement.class),
 					@"tool" : NSStringFromClass(XliffToolElement.class),
+                    @"context-group" : NSStringFromClass(XliffContextGroupElement.class),
+                    @"context" : NSStringFromClass(XliffContextElement.class),
 					@"count-group" : NSStringFromClass(XliffCountGroupElement.class),
 					@"count" : NSStringFromClass(XliffCountElement.class),
 					@"body" : NSStringFromClass(XliffBodyElement.class),
@@ -35,6 +37,20 @@ static NSDictionary *xliffElements;
 					@"trans-unit" : NSStringFromClass(XliffTransUnitElement.class),
 					@"source" : NSStringFromClass(XliffSourceElement.class),
 					@"target" : NSStringFromClass(XliffTargetElement.class),
+                    @"bin-unit" : NSStringFromClass(XliffBinUnitElement.class),
+                    @"bin-source" : NSStringFromClass(XliffBinSourceElement.class),
+                    @"bin-target" : NSStringFromClass(XliffBinTargetElement.class),
+                    @"alt-trans" : NSStringFromClass(XliffAltTransElement.class),
+                    @"g" : NSStringFromClass(XliffGenericGroupElement.class),
+                    @"x" : NSStringFromClass(XliffGenericElement.class),
+                    @"bx" : NSStringFromClass(XliffBeginPairedElement.class),
+                    @"ex" : NSStringFromClass(XliffEndPairedElement.class),
+                    @"bpt" : NSStringFromClass(XliffBeginPairedTagElement.class),
+                    @"ept" : NSStringFromClass(XliffEndPairedTagElement.class),
+                    @"sub" : NSStringFromClass(XliffSubflowElement.class),
+                    @"it" : NSStringFromClass(XliffIsolatedTagElement.class),
+                    @"ph" : NSStringFromClass(XliffPlaceholderElement.class),
+                    @"mrk" : NSStringFromClass(XliffMarkerElement.class),
 					};
 }
 
