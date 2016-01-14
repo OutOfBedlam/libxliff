@@ -52,10 +52,14 @@
     }
 }
 
-- (void)testExample {
+- (void)testParser {
+    NSError *error = nil;
+
     NSURL *url = [[NSBundle bundleForClass:[self class]] URLForResource:@"XliffParserTest" withExtension:@"xliff"];
     XCTAssert(url != nil, @"Test File not found");
-    _xlf = [XliffParser parseWithURL:url];
+
+    _xlf = [XliffParser parseWithURL:url error:&error];
+    XCTAssert(_xlf != nil, @"Parser failure");
 
     for (id obj in _xlf.fileArray)
     {

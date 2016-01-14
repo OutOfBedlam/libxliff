@@ -82,7 +82,10 @@
 
 - (void) insertSubObject:(XliffObject *)sub after:(XliffObject *)object
 {
-	NSUInteger index = [_subObjects indexOfObject:object];
+    NSUInteger index = NSNotFound;
+    if (object)
+        index = [_subObjects indexOfObject:object];
+
 	if (index == NSNotFound)
 	{
 		[_subObjects addObject:sub];
@@ -95,7 +98,10 @@
 
 - (void) insertSubObject:(XliffObject *)sub before:(XliffObject *)object
 {
-	NSUInteger index = [_subObjects indexOfObject:object];
+    NSUInteger index = NSNotFound;
+    if (object)
+        index = [_subObjects indexOfObject:object];
+
 	if (index == NSNotFound)
 	{
 		[_subObjects addObject:sub];

@@ -112,31 +112,19 @@ static NSDictionary *xliffElements;
 	return xlfObject;
 }
 
-+ (XliffElement *) parseWithData:(NSData *)data
++ (XliffElement *) parseWithData:(NSData *)data error:(NSError **)error
 {
-	NSError *error = nil;
-	NSXMLDocument *xml = [[NSXMLDocument alloc] initWithData:data options:NSXMLNodeOptionsNone error:&error];
-
-	if (error)
-	{
-		NSLog(@"%s %@", __func__, error);
-		return NO;
-	}
-
+	NSXMLDocument *xml = [[NSXMLDocument alloc] initWithData:data options:NSXMLNodeOptionsNone error:error];
+    if (xml == nil)
+        return nil;
 	return [XliffParser parseWithXMLDocument:xml];
 }
 
-+ (XliffElement *) parseWithURL:(NSURL *)URL
++ (XliffElement *) parseWithURL:(NSURL *)URL error:(NSError **)error
 {
-	NSError *error = nil;
-	NSXMLDocument *xml = [[NSXMLDocument alloc] initWithContentsOfURL:URL options:NSXMLNodeOptionsNone error:&error];
-
-	if (error)
-	{
-		NSLog(@"%s %@", __func__, error);
-		return NO;
-	}
-
+	NSXMLDocument *xml = [[NSXMLDocument alloc] initWithContentsOfURL:URL options:NSXMLNodeOptionsNone error:error];
+	if (xml == nil)
+        return nil;
 	return [XliffParser parseWithXMLDocument:xml];
 }
 

@@ -131,8 +131,8 @@
 		46424B4D1C4736520051F444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46424B541C4736900051F444 /* XliffParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffParserTest.m; sourceTree = "<group>"; };
 		46424B561C4737FF0051F444 /* XliffParserTest.xliff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XliffParserTest.xliff; sourceTree = "<group>"; };
-		46424B581C473D400051F444 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		46424B591C473D400051F444 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46424B581C473D400051F444 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		46424B591C473D400051F444 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		46424B5B1C473EBC0051F444 /* XliffObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffObject.h; sourceTree = "<group>"; };
 		46424B5D1C473F750051F444 /* XliffElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XliffElement.h; sourceTree = "<group>"; };
 		46424B631C47440B0051F444 /* XliffFileElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffFileElement.h; sourceTree = "<group>"; };

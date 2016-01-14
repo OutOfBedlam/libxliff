@@ -11,8 +11,8 @@
 @interface XliffParser : NSObject
 
 + (XliffElement *) parseWithXMLDocument:(NSXMLDocument *)xml;
-+ (XliffElement *) parseWithData:(NSData *)data;
-+ (XliffElement *) parseWithURL:(NSURL *)URL;
++ (XliffElement *) parseWithData:(NSData *)data error:(NSError **)error;
++ (XliffElement *) parseWithURL:(NSURL *)URL error:(NSError **)error;
 
 @end
 
