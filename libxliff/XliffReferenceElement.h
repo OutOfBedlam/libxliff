@@ -6,8 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffReferenceElement_h
-#define XliffReferenceElement_h
 
 /**
  Reference - The <reference> element points to or contains reference material, which can aid in the localization of the file.
@@ -24,5 +22,3 @@
 @interface XliffReferenceElement : XliffObject
 
 @end
-
-#endif /* XliffReferenceElement_h */

@@ -17,12 +17,14 @@
 
 @implementation XliffParserTest
 
-- (void)setUp {
+- (void)setUp
+{
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
-- (void)tearDown {
+- (void)tearDown
+{
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
@@ -43,7 +45,7 @@
 
         if (tu.isTranslate)
         {
-            NSLog(@"%@\n\t%@\n\t%@", tu.Id, tu.sourceText, tu.targetText);
+            NSLog(@"\n\tTU-ID : %@\n\tSource: %@\n\tTarget: %@", tu.Id, tu.sourceText, tu.targetText);
         }
     }
     else
@@ -52,7 +54,8 @@
     }
 }
 
-- (void)testParser {
+- (void)testParser
+{
     NSError *error = nil;
 
     NSURL *url = [[NSBundle bundleForClass:[self class]] URLForResource:@"XliffParserTest" withExtension:@"xliff"];
@@ -60,27 +63,36 @@
 
     _xlf = [XliffParser parseWithURL:url error:&error];
     XCTAssert(_xlf != nil, @"Parser failure");
+    XCTAssert(_xlf.fileElements.count == 14, @"files count: %ld", _xlf.fileElements.count);
 
-    for (XliffFileElement *f in _xlf.fileArray)
+    NSLog(@"version=%@, lang=%@", _xlf.version, _xlf.xmlLang);
+
+    NSArray<XliffFileElement *> *files = _xlf.fileElements;
+    for (XliffFileElement *f in files)
     {
-        NSLog(@"File: %@", f.original);
-    }
+        NSString *sourceLanguage = f.sourceLanguage;
+        NSString *targetLanguage = f.targetLanguage;
 
-    XliffFileElement *fileElement = [_xlf.fileArray firstObject];
-    XliffBodyElement *bodyElement = fileElement.bodyElement;
+        XliffToolElement *tool = f.toolElement;
+        if (tool)
+        {
+            NSLog(@"%@ %@ %@", f.original, tool.toolName, tool.toolVersion);
+        }
 
-    NSArray *elements = [bodyElement subObjects];
-    for (id obj in elements)
-    {
-        NSLog(@"%@", obj);
-        [self print:obj];
+        XliffBodyElement *body = f.bodyElement;
+
+        [body enumerateTransUnitUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+            XliffTransUnitElement *tu = (XliffTransUnitElement *)obj;
+            NSLog(@"\n\tTU-ID : %@ %@\n\tSource(%@): %@\n\tTarget(%@): %@",
+                  tu.Id, tu.noteElements,
+                  sourceLanguage, tu.sourceText, targetLanguage, tu.targetText);
+        }];
     }
-    
-    //XCTAssert(YES, @"Pass");
 }
 
 #if 0
-- (void)testPerformanceExample {
+- (void)testPerformanceExample
+{
     // This is an example of a performance test case.
     [self measureBlock:^{
         // Put the code you want to measure the time of here.

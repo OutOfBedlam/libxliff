@@ -6,9 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffGroupElement_h
-#define XliffGroupElement_h
-
 @interface XliffGroupElement : XliffObject
 // Optional attributes:
 @property NSString *Id;			// id
@@ -41,9 +38,7 @@
 
 - (NSArray *)children;
 - (NSArray *)propGroupArray;
-- (NSArray *)noteArray;
+- (NSArray<XliffNoteElement *> *)noteElements;
 
 @end
 
-
-#endif /* XliffGroupElement_h */

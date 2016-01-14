@@ -6,8 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffPropGroupElement_h
-#define XliffPropGroupElement_h
 
 @interface XliffPropGroupElement : XliffObject
 
@@ -19,5 +17,3 @@
 
 @end
 
-
-#endif /* XliffPropGroupElement_h */

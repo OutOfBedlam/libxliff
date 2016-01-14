@@ -6,10 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffSklElement_h
-#define XliffSklElement_h
-
-
 /**
  Skeleton file - The <skl> element contains the skeleton file or the location of the skeleton file.
  The skeleton file is a template that can be used in recreating the original file,
@@ -27,6 +23,3 @@
 @interface XliffSklElement : XliffObject
 
 @end
-
-
-#endif /* XliffSklElement_h */

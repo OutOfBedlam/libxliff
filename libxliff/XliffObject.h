@@ -6,9 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffObject_h
-#define XliffObject_h
-
 @interface XliffObject : NSObject
 
 - (instancetype) initWithName:(NSString *)name;
@@ -28,10 +25,6 @@
 - (void)setAttribute:(NSString *)attrValue forName:(NSString *)attrName;
 - (NSString *)attributeForName:(NSString *)attrName;
 
-- (BOOL)expectText;
-- (void)setText:(NSString *)text;
-- (NSString *)text;
-
 - (void) setNamespaces:(NSArray *)ns;
 - (NSArray *)namespaces;
 
@@ -40,5 +33,3 @@
 - (void)xmlize:(NSMutableString *)stringBuff;
 
 @end
-
-#endif /* XliffObject_h */

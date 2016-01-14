@@ -13,6 +13,7 @@
 
 #import "XliffParser.h"
 #import "XliffObject.h"
+#import "XliffTextObject.h"
 #import "XliffElement.h"
 #import "XliffFileElement.h"
 #import "XliffHeaderElement.h"

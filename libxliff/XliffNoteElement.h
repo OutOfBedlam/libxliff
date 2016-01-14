@@ -6,9 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffNoteElement_h
-#define XliffNoteElement_h
-
 /**
  Note - The <note> element is used to add localization-related comments to the XLIFF document.
  The content of <note> may be instructions from developers about how to handle the <source>,
@@ -30,7 +27,7 @@
  Contents:
 	Text, no standard elements.
  */
-@interface XliffNoteElement : XliffObject
+@interface XliffNoteElement : XliffTextObject
 
 // optional attributes
 @property NSString *lang;	// xml:lang
@@ -38,8 +35,4 @@
 @property NSString *priority; // priority
 @property NSString *annotates; // annotates
 
-- (NSString *) text;
-
 @end
-
-#endif /* XliffNoteElement_h */

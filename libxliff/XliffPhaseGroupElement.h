@@ -6,9 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffPhaseGroupElement_h
-#define XliffPhaseGroupElement_h
-
 /**
  Phase group - The <phase-group> element contains information about the task that has been performed on the file.
  This phase information is specific to the tools and workflow used in processing the file.
@@ -26,4 +23,3 @@
 
 @end
 
-#endif /* XliffPhaseGroupElement_h */

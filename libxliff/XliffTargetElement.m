@@ -10,9 +10,6 @@
 #import "libxliff.h"
 
 @interface XliffTargetElement()
-{
-	NSString *_text;
-}
 @end
 
 @implementation XliffTargetElement
@@ -28,9 +25,5 @@
 	}
 	return self;
 }
-
-- (BOOL) expectText{ return YES; }
-- (void) setText:(NSString *)text { _text = [text copy]; }
-- (NSString *) text { return _text; }
 
 @end

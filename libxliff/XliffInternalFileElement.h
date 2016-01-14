@@ -6,8 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffInternalFileElement_h
-#define XliffInternalFileElement_h
 
 /**
  Internal file - The <internal-file> element contains the actual file being referenced.
@@ -31,4 +29,3 @@
 
 @end
 
-#endif /* XliffInternalFileElement_h */

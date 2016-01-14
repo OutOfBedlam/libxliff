@@ -100,8 +100,8 @@ static NSDictionary *xliffElements;
 			}
 			case NSXMLTextKind:
 			{
-				if ([xlfObject expectText])
-					[xlfObject setText:[child stringValue]];
+                if ([xlfObject isKindOfClass:XliffTextObject.class])
+					[((XliffTextObject*)xlfObject) setText:[child stringValue]];
 				break;
 			}
 			default:

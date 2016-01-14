@@ -6,11 +6,5 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffSourceElement_h
-#define XliffSourceElement_h
-
-@interface XliffSourceElement : XliffObject
-@property (copy) NSString *text;
+@interface XliffSourceElement : XliffTextObject
 @end
-
-#endif /* XliffSourceElement_h */

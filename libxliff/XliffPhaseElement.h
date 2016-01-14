@@ -6,9 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffPhaseElement_h
-#define XliffPhaseElement_h
-
 /**
  Phase information - The <phase> contains metadata about the tasks performed in a particular process.
 
@@ -45,4 +42,3 @@
 @property NSString *contactPhone;
 @end
 
-#endif /* XliffPhaseElement_h */

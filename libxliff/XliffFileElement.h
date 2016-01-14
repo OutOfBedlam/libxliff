@@ -6,16 +6,13 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffFileElement_h
-#define XliffFileElement_h
-
 @class XliffHeaderElement;
 @class XliffBodyElement;
+@class XliffToolElement;
 
 /**
  The <file> element corresponds to a single extracted original document.
- The required original attribute specifies the name of the file from which this
- file content is derived.
+ The required original attribute specifies the name of the file from which this file content is derived.
  The required datatype attribute specifies the format of the original file; e.g. "html".
  The required source-language attribute specifies the language of the <source> content.
  The optional target-language attribute is used to specify the language of the <target> content.
@@ -45,8 +42,8 @@
 @property NSString *datatype;			// datatype
 
 // optional attributes
-@property NSString *tool;				// tool
-@property NSString *toolId;				// tool-id
+@property NSString *tool DEPRECATED_ATTRIBUTE;      // tool
+@property NSString *toolId DEPRECATED_ATTRIBUTE;	// tool-id
 @property NSString *date;				// date
 @property NSString *xmlSpace;			// xml:space
 @property NSString *ts;					// ts
@@ -61,4 +58,8 @@
 
 @end
 
-#endif /* XliffFileElement_h */
+
+@interface XliffFileElement(Convenient)
+- (XliffToolElement *) toolElement;
+@end
+

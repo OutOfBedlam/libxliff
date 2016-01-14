@@ -48,3 +48,17 @@
 }
 
 @end
+
+
+@implementation XliffFileElement(Convenient)
+- (XliffToolElement *) toolElement
+{
+    if (self.headerElement) {
+        if (self.headerElement.toolElement) {
+            return self.headerElement.toolElement;
+        }
+    }
+
+    return nil;
+}
+@end

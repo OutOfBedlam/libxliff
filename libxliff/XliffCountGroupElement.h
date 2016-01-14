@@ -6,9 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffCountGroupElement_h
-#define XliffCountGroupElement_h
-
 /**
  Count group - The <count-group> element holds count elements relating to the level in the tree in which it occurs.
  Each group for <count> elements must be named, allowing different uses for each group.
@@ -28,5 +25,3 @@
 @property NSString *name;
 
 @end
-
-#endif /* XliffCountGroupElement_h */

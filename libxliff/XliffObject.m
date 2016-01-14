@@ -10,6 +10,7 @@
 
 #import "XliffParser.h"
 #import "XliffObject.h"
+#import "XliffTextObject.h"
 
 @interface XliffObjectAttribute : NSObject
 @property NSString *key;
@@ -136,21 +137,6 @@
 	return nil;
 }
 
-- (BOOL)expectText
-{
-	return NO;
-}
-
-- (void)setText:(NSString *)text
-{
-
-}
-
-- (NSString *)text
-{
-	return nil;
-}
-
 - (id)ancestorOfClass:(Class)class
 {
 	XliffObject *parent = self.parent;
@@ -253,11 +239,11 @@
 
 		[stringBuff appendFormat:@"</%@>", _name];
 	}
-	else if ([self expectText])
+	else if ([self isKindOfClass:XliffTextObject.class])
 	{
 		[stringBuff appendString:@">"];
-		if (self.text)
-			[stringBuff appendString:self.text];
+		if (((XliffTextObject *)self).text)
+			[stringBuff appendString:((XliffTextObject *)self).text];
 		[stringBuff appendFormat:@"</%@>", _name];
 	}
 	else

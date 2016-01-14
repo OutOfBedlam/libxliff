@@ -51,7 +51,7 @@
 	[super removeSubObject:sub];
 }
 
-- (NSArray<XliffFileElement *> *) fileArray
+- (NSArray<XliffFileElement *> *) fileElements
 {
 	return _fileArray;
 }

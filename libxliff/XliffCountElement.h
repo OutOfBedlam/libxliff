@@ -6,8 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffCountElement_h
-#define XliffCountElement_h
 
 /**
  Count - The <count> element contains information about counts.
@@ -32,5 +30,3 @@
 @property NSString *phaseName;
 @property NSString *unit;
 @end
-
-#endif /* XliffCountElement_h */

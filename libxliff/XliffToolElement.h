@@ -6,9 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffToolElement_h
-#define XliffToolElement_h
-
 /**
  Tool - The <tool> element describes the tool that has been used to execute a given task in the document.
  The required tool-id attribute uniquely identifies the tool for reference within the file.
@@ -34,4 +31,3 @@
 @property NSString *toolCompany;
 @end
 
-#endif /* XliffToolElement_h */

@@ -24,13 +24,13 @@
  */
 @interface XliffElement : XliffObject
 
-// required attributes
+// Required attribute
 @property NSString *version;
 
-// Optional attributes:
+// Optional attribute
 @property NSString *xmlLang;
 
-// child element
-- (NSArray<XliffFileElement *> *) fileArray;
+// One or more <file> elements
+- (NSArray<XliffFileElement *> *) fileElements;
 
 @end

@@ -14,7 +14,7 @@
 {
 	NSMutableArray *_children;
 	NSMutableArray *_propGroupArray;
-	NSMutableArray *_noteArray;
+	NSMutableArray<XliffNoteElement *> *_noteArray;
 }
 @end
 
@@ -66,7 +66,7 @@
 	}
 	else if ([@"note" isEqualToString:sub.name])
 	{
-		[_noteArray addObject:sub];
+		[_noteArray addObject:(XliffNoteElement *)sub];
 	}
 	else if ([@"group" isEqualToString:sub.name])
 	{
@@ -92,7 +92,7 @@
 	return _propGroupArray;
 }
 
-- (NSArray *)noteArray
+- (NSArray<XliffNoteElement *> *)noteElements
 {
 	return _noteArray;
 }

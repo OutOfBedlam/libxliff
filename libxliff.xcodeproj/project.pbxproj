@@ -89,6 +89,8 @@
 		46424BC91C475F170051F444 /* XliffIsolatedTagElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BC71C475F170051F444 /* XliffIsolatedTagElement.m */; };
 		46424BCC1C475F850051F444 /* XliffPlaceholderElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BCA1C475F850051F444 /* XliffPlaceholderElement.h */; };
 		46424BCD1C475F850051F444 /* XliffPlaceholderElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BCB1C475F850051F444 /* XliffPlaceholderElement.m */; };
+		46424BDC1C477D1D0051F444 /* XliffTextObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 46424BDA1C477D1D0051F444 /* XliffTextObject.h */; };
+		46424BDD1C477D1D0051F444 /* XliffTextObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424BDB1C477D1D0051F444 /* XliffTextObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +190,8 @@
 		46424BC71C475F170051F444 /* XliffIsolatedTagElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffIsolatedTagElement.m; sourceTree = "<group>"; };
 		46424BCA1C475F850051F444 /* XliffPlaceholderElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffPlaceholderElement.h; sourceTree = "<group>"; };
 		46424BCB1C475F850051F444 /* XliffPlaceholderElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffPlaceholderElement.m; sourceTree = "<group>"; };
+		46424BDA1C477D1D0051F444 /* XliffTextObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XliffTextObject.h; sourceTree = "<group>"; };
+		46424BDB1C477D1D0051F444 /* XliffTextObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffTextObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +241,8 @@
 				46424B211C4734F80051F444 /* XliffParser.m */,
 				46424B5B1C473EBC0051F444 /* XliffObject.h */,
 				46424B1F1C4734F80051F444 /* XliffObject.m */,
+				46424BDA1C477D1D0051F444 /* XliffTextObject.h */,
+				46424BDB1C477D1D0051F444 /* XliffTextObject.m */,
 				46424B5E1C4740B10051F444 /* TopLevel */,
 				46424B5F1C4740C60051F444 /* NamedGroup */,
 				46424B601C4740DA0051F444 /* Structural */,
@@ -386,6 +392,7 @@
 				46424B711C4746320051F444 /* XliffReferenceElement.h in Headers */,
 				46424BB01C475D020051F444 /* XliffGenericElement.h in Headers */,
 				46424BC01C475E3A0051F444 /* XliffEndPairedTagElement.h in Headers */,
+				46424BDC1C477D1D0051F444 /* XliffTextObject.h in Headers */,
 				46424B8D1C4756F10051F444 /* libxliff.h in Headers */,
 				46424B7D1C4754840051F444 /* XliffCountElement.h in Headers */,
 				46424B641C47440B0051F444 /* XliffFileElement.h in Headers */,
@@ -537,6 +544,7 @@
 				46424BC11C475E3A0051F444 /* XliffEndPairedTagElement.m in Sources */,
 				46424BC51C475EAC0051F444 /* XliffSubflowElement.m in Sources */,
 				46424B2C1C4734F80051F444 /* XliffBodyElement.m in Sources */,
+				46424BDD1C477D1D0051F444 /* XliffTextObject.m in Sources */,
 				46424B331C4734F80051F444 /* XliffGroupElement.m in Sources */,
 				46424B321C4734F80051F444 /* XliffGlossaryElement.m in Sources */,
 				46424B951C4758810051F444 /* XliffContextElement.m in Sources */,

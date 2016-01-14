@@ -13,7 +13,7 @@
 @interface XliffHeaderElement()
 {
 	NSMutableArray *_propGroupArray;
-	NSMutableArray *_noteArray;
+	NSMutableArray<XliffNoteElement *> *_noteArray;
 
 	XliffSklElement *_skl;
 	XliffToolElement *_tool;
@@ -53,7 +53,8 @@
 	else if ([@"phase-group" isEqualToString:sub.name])
 	{
 	}
-	// zero, one or more <glossary>, <reference>, <count-group>, <prop-group>, <note>, <tool> elements, in any order
+	// zero, one or more <glossary>, <reference>, <count-group>,
+    // <prop-group>, <note>, <tool> elements, in any order
 	else if ([@"glossary" isEqualToString:sub.name])
 	{
 
@@ -72,7 +73,7 @@
 	}
 	else if ([@"note" isEqualToString:sub.name])
 	{
-		[_noteArray addObject:sub];
+		[_noteArray addObject:(XliffNoteElement *)sub];
 	}
 	else if ([@"tool" isEqualToString:sub.name])
 	{
@@ -85,7 +86,7 @@
 	return _propGroupArray;
 }
 
-- (NSArray *)noteArray
+- (NSArray<XliffNoteElement *> *)noteElements
 {
 	return _noteArray;
 }

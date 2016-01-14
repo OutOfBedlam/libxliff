@@ -8,10 +8,21 @@
 
 @class XliffSourceElement;
 @class XliffTargetElement;
+@class XliffNoteElement;
 
-#ifndef XliffTransUnitElement_h
-#define XliffTransUnitElement_h
-
+/**
+ Contents:
+    One <source> element, followed by
+    Zero or one <seg-source> element, followed by
+    Zero or one <target> element, followed by
+    Zero, one or more <context-group>, <count-group>, <prop-group>, <note>, <alt-trans> elements, in
+        any order, followed by
+    Zero, one or more non-XLIFF elements.
+ 
+    All child elements of <trans-unit> pertain to their sibling <source> element.
+    While for backward compatibility reasons no order is enforced for the elements before the non-XLIFF elements, the
+    recommended order is the one in which they are listed here.
+ */
 @interface XliffTransUnitElement : XliffObject
 
 // Required attributes:
@@ -23,7 +34,7 @@
 @property NSString *reformat;	// reformat
 @property NSString *xmlSpace;	// xml:space
 @property NSString *datatype;	// datatype
-@property NSString *ts;			// ts
+@property NSString *ts DEPRECATED_ATTRIBUTE;	// ts
 @property NSString *phaseName;	// phase-name
 @property NSString *restype;	// restype
 @property NSString *resname;	// resname
@@ -55,13 +66,10 @@
 - (XliffTargetElement *)target;
 - (void)setTarget:(XliffTargetElement *)target;
 
-- (NSArray *)noteArray;
+- (NSArray<XliffNoteElement *> *)noteElements;
 - (BOOL)isTranslate;
 
 //! array of XLFPropGroupElement
 - (NSArray *)propGroupArray;
 
 @end
-
-
-#endif /* XliffTransUnitElement_h */

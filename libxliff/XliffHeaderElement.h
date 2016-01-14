@@ -7,9 +7,7 @@
 //
 
 @class XliffToolElement;
-
-#ifndef XliffHeaderElement_h
-#define XliffHeaderElement_h
+@class XliffNoteElement;
 
 /**
  File header - The <header> element contains metadata relating to the <file> element.
@@ -32,11 +30,8 @@
 @interface XliffHeaderElement : XliffObject
 
 - (NSArray *)propGroupArray;
-- (NSArray *)noteArray;
+- (NSArray<XliffNoteElement *> *)noteElements;
 
 - (XliffToolElement *) toolElement;
 
 @end
-
-
-#endif /* XliffHeaderElement_h */

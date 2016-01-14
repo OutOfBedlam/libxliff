@@ -8,9 +8,6 @@
 
 @class XliffTransUnitElement;
 
-#ifndef XliffBodyElement_h
-#define XliffBodyElement_h
-
 /**
  File body - The <body> element contains the content from the file.
 
@@ -28,5 +25,3 @@
 
 @end
 
-
-#endif /* XliffBodyElement_h */

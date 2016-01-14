@@ -6,8 +6,6 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffGlossaryElement_h
-#define XliffGlossaryElement_h
 
 /**
  Glossary - The <glossary> element points to or contains a glossary, which can be used in the localization of the file.
@@ -25,4 +23,3 @@
 
 @end
 
-#endif /* XliffGlossaryElement_h */

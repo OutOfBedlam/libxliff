@@ -15,7 +15,7 @@
 	XliffSourceElement *_source;
 	XliffTargetElement *_target;
 
-	NSMutableArray *_noteArray;
+	NSMutableArray<XliffNoteElement *> *_noteArray;
 	NSMutableArray *_propGroupArray;
 }
 @end
@@ -58,7 +58,7 @@
 	}
 	else if ([@"note" isEqualToString:sub.name])
 	{
-		[_noteArray addObject:sub];
+		[_noteArray addObject:(XliffNoteElement *)sub];
 	}
 	else if ([@"prop-group" isEqualToString:sub.name])
 	{
@@ -102,7 +102,7 @@
 	_target = target;
 }
 
-- (NSArray *)noteArray
+- (NSArray<XliffNoteElement *> *)noteElements
 {
 	return _noteArray;
 }
