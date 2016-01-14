@@ -31,7 +31,7 @@
 		46424B411C4734F80051F444 /* XliffTargetElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B291C4734F80051F444 /* XliffTargetElement.m */; };
 		46424B421C4734F80051F444 /* xliffToolElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B2A1C4734F80051F444 /* xliffToolElement.m */; };
 		46424B431C4734F80051F444 /* XliffTransUnitElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B2B1C4734F80051F444 /* XliffTransUnitElement.m */; };
-		46424B4E1C4736520051F444 /* liblibxliff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46424AA51C47337B0051F444 /* liblibxliff.a */; };
+		46424B4E1C4736520051F444 /* libxliff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46424AA51C47337B0051F444 /* libxliff.a */; };
 		46424B551C4736900051F444 /* XliffParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 46424B541C4736900051F444 /* XliffParserTest.m */; };
 		46424B571C4737FF0051F444 /* XliffParserTest.xliff in Resources */ = {isa = PBXBuildFile; fileRef = 46424B561C4737FF0051F444 /* XliffParserTest.xliff */; };
 /* End PBXBuildFile section */
@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46424AA51C47337B0051F444 /* liblibxliff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibxliff.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46424AA51C47337B0051F444 /* libxliff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxliff.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		46424B141C4734F80051F444 /* XliffBodyElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffBodyElement.m; sourceTree = "<group>"; };
 		46424B151C4734F80051F444 /* XliffCountElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffCountElement.m; sourceTree = "<group>"; };
 		46424B161C4734F80051F444 /* XliffCountGroupElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XliffCountGroupElement.m; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46424B4E1C4736520051F444 /* liblibxliff.a in Frameworks */,
+				46424B4E1C4736520051F444 /* libxliff.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +109,7 @@
 		46424AA61C47337B0051F444 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46424AA51C47337B0051F444 /* liblibxliff.a */,
+				46424AA51C47337B0051F444 /* libxliff.a */,
 				46424B491C4736520051F444 /* libxliffTests.xctest */,
 			);
 			name = Products;
@@ -120,6 +120,7 @@
 			children = (
 				46424B201C4734F80051F444 /* XliffParser.h */,
 				46424B211C4734F80051F444 /* XliffParser.m */,
+				46424B1F1C4734F80051F444 /* XliffObject.m */,
 				46424B141C4734F80051F444 /* XliffBodyElement.m */,
 				46424B151C4734F80051F444 /* XliffCountElement.m */,
 				46424B161C4734F80051F444 /* XliffCountGroupElement.m */,
@@ -131,7 +132,6 @@
 				46424B1C1C4734F80051F444 /* XliffHeaderElement.m */,
 				46424B1D1C4734F80051F444 /* XliffInternalFileElement.m */,
 				46424B1E1C4734F80051F444 /* XliffNoteElement.m */,
-				46424B1F1C4734F80051F444 /* XliffObject.m */,
 				46424B221C4734F80051F444 /* XliffPhaseElement.m */,
 				46424B231C4734F80051F444 /* XliffPhaseGroupElement.m */,
 				46424B241C4734F80051F444 /* XliffPropElement.m */,
@@ -154,7 +154,8 @@
 				46424B541C4736900051F444 /* XliffParserTest.m */,
 				46424B561C4737FF0051F444 /* XliffParserTest.xliff */,
 			);
-			path = libxliffTests;
+			name = libxliffTests;
+			path = ../libxliffTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,9 +172,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		46424AA41C47337B0051F444 /* libxliff */ = {
+		46424AA41C47337B0051F444 /* xliff */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46424AAE1C47337B0051F444 /* Build configuration list for PBXNativeTarget "libxliff" */;
+			buildConfigurationList = 46424AAE1C47337B0051F444 /* Build configuration list for PBXNativeTarget "xliff" */;
 			buildPhases = (
 				46424AA11C47337B0051F444 /* Sources */,
 				46424AA21C47337B0051F444 /* Frameworks */,
@@ -183,9 +184,9 @@
 			);
 			dependencies = (
 			);
-			name = libxliff;
+			name = xliff;
 			productName = libxliff;
-			productReference = 46424AA51C47337B0051F444 /* liblibxliff.a */;
+			productReference = 46424AA51C47337B0051F444 /* libxliff.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		46424B481C4736520051F444 /* libxliffTests */ = {
@@ -235,7 +236,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46424AA41C47337B0051F444 /* libxliff */,
+				46424AA41C47337B0051F444 /* xliff */,
 				46424B481C4736520051F444 /* libxliffTests */,
 			);
 		};
@@ -296,7 +297,7 @@
 /* Begin PBXTargetDependency section */
 		46424B501C4736520051F444 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46424AA41C47337B0051F444 /* libxliff */;
+			target = 46424AA41C47337B0051F444 /* xliff */;
 			targetProxy = 46424B4F1C4736520051F444 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,7 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = libxliffTests/Info.plist;
+				INFOPLIST_FILE = ../libxliffTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.x3.libxliffTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,7 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = libxliffTests/Info.plist;
+				INFOPLIST_FILE = ../libxliffTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.x3.libxliffTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46424AAE1C47337B0051F444 /* Build configuration list for PBXNativeTarget "libxliff" */ = {
+		46424AAE1C47337B0051F444 /* Build configuration list for PBXNativeTarget "xliff" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46424AAF1C47337B0051F444 /* Debug */,
@@ -447,6 +448,7 @@
 				46424B531C4736520051F444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
