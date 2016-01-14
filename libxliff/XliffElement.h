@@ -6,8 +6,7 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
-#ifndef XliffElement_h
-#define XliffElement_h
+@class XliffFileElement;
 
 /**
 	XLIFF document - The <xliff> element encloses all the other elements of the document.
@@ -15,13 +14,13 @@
 	The optional xml:lang attribute is used to specify the language of the content of the document.
 
 	Required attributes:
- version.
+        version.
 
 	Optional attributes:
- xml:lang.
+        xml:lang.
 
 	Contents:
- One or more <file> elements.
+        One or more <file> elements.
  */
 @interface XliffElement : XliffObject
 
@@ -32,8 +31,6 @@
 @property NSString *xmlLang;
 
 // child element
-- (NSArray *) fileArray;
+- (NSArray<XliffFileElement *> *) fileArray;
 
 @end
-
-#endif /* XliffElement_h */

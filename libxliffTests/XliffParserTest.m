@@ -61,12 +61,12 @@
     _xlf = [XliffParser parseWithURL:url error:&error];
     XCTAssert(_xlf != nil, @"Parser failure");
 
-    for (id obj in _xlf.fileArray)
+    for (XliffFileElement *f in _xlf.fileArray)
     {
-        if ([obj isKindOfClass:XliffFileElement.class])
-            NSLog(@"%@", ((XliffFileElement*) obj).original);
+        NSLog(@"File: %@", f.original);
     }
-    XliffFileElement *fileElement = (XliffFileElement *)[_xlf.fileArray firstObject];
+
+    XliffFileElement *fileElement = [_xlf.fileArray firstObject];
     XliffBodyElement *bodyElement = fileElement.bodyElement;
 
     NSArray *elements = [bodyElement subObjects];

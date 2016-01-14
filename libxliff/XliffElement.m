@@ -6,13 +6,11 @@
 //  Copyright (c) 2015 Yet Reader Forge. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 #import "libxliff.h"
 
 @interface XliffElement()
 {
-	NSMutableArray *_fileArray;
+	NSMutableArray<XliffFileElement *> *_fileArray;
 }
 @end
 
@@ -39,7 +37,7 @@
 
 	if ([sub isKindOfClass:XliffFileElement.class])
 	{
-		[_fileArray addObject:sub];
+		[_fileArray addObject:(XliffFileElement *)sub];
 	}
 }
 
@@ -47,13 +45,13 @@
 {
 	if ([sub isKindOfClass:XliffFileElement.class])
 	{
-		[_fileArray removeObject:sub];
+		[_fileArray removeObject:(XliffFileElement *)sub];
 	}
 
 	[super removeSubObject:sub];
 }
 
-- (NSArray *) fileArray
+- (NSArray<XliffFileElement *> *) fileArray
 {
 	return _fileArray;
 }
