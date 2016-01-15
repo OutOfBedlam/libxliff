@@ -6,6 +6,8 @@
 //  Copyright © 2016 Yet Reader Forge. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @interface XliffObject : NSObject
 
 - (instancetype) initWithName:(NSString *)name;
@@ -16,7 +18,7 @@
 - (NSString *)name;
 
 - (void)addSubObject:(XliffObject *)sub;
-- (NSArray *)subObjects;
+- (NSArray<XliffObject *> *)subObjects;
 - (void) removeSubObject:(XliffObject *)sub;
 
 - (void) insertSubObject:(XliffObject *)sub after:(XliffObject *)obbject;
@@ -32,4 +34,9 @@
 
 - (void)xmlize:(NSMutableString *)stringBuff;
 
+@end
+
+
+@interface XliffObject(XML)
++ (NSString*) xmlSimpleEscape:(NSString*)unescapedStr;
 @end

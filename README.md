@@ -42,6 +42,9 @@ Please refer to [Apple's Document](https://developer.apple.com/library/ios/docum
 
 NSURL *url = ... URL of XLIFF file ...;
 XliffElement *xlf = [XliffParser parseWithURL:url error:nil];
+
+NSMutableString *xmlString = [[NSMutableString alloc] init];
+[xlf xmlize:xmlString];
 ```
 
 ## XLIFF Elements

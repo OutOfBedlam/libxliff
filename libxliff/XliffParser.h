@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Yet Reader Forge. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @class XliffElement;
 
 @interface XliffParser : NSObject

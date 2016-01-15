@@ -88,6 +88,10 @@
                   sourceLanguage, tu.sourceText, targetLanguage, tu.targetText);
         }];
     }
+
+    NSMutableString *xmlString = [[NSMutableString alloc] init];
+    [_xlf xmlize:xmlString];
+    NSLog(@"-----------------------\n%@", xmlString);
 }
 
 #if 0

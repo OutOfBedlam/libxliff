@@ -6,8 +6,6 @@
 //  Copyright (c) 2015 Yet Reader Forge. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 #import "XliffParser.h"
 #import "XliffObject.h"
 #import "XliffTextObject.h"
@@ -15,17 +13,25 @@
 @interface XliffObjectAttribute : NSObject
 @property NSString *key;
 @property NSString *value;
+- (void)xmlize:(NSMutableString *)stringBuff;
 @end
 
 @implementation XliffObjectAttribute
+
+- (void)xmlize:(NSMutableString *)stringBuff
+{
+    NSString *escapedValue = [XliffObject xmlSimpleEscape:_value];
+    [stringBuff appendFormat:@" %@=\"%@\"", _key, escapedValue];
+}
+
 @end
 
 
 @interface XliffObject()
 {
 	NSString *_name;
-	NSMutableArray *_attributes;
-	NSMutableArray *_subObjects;
+	NSMutableArray<XliffObjectAttribute *> *_attributes;
+	NSMutableArray<XliffObject *> *_subObjects;
 
 	NSArray *_namespaces;
 }
@@ -76,7 +82,7 @@
 	[_subObjects addObject:sub];
 }
 
-- (NSArray *) subObjects
+- (NSArray<XliffObject *> *) subObjects
 {
 	return _subObjects;
 }
@@ -219,7 +225,7 @@
 
 	for (XliffObjectAttribute *attr in _attributes)
 	{
-		[stringBuff appendFormat:@" %@=\"%@\"", attr.key, attr.value];
+        [attr xmlize:stringBuff];
 	}
 
 	if (_subObjects.count)
@@ -241,15 +247,102 @@
 	}
 	else if ([self isKindOfClass:XliffTextObject.class])
 	{
+        NSString *escapedText = [XliffObject xmlSimpleEscape:((XliffTextObject *)self).text];
+
 		[stringBuff appendString:@">"];
-		if (((XliffTextObject *)self).text)
-			[stringBuff appendString:((XliffTextObject *)self).text];
+		if (escapedText)
+        {
+			[stringBuff appendString:escapedText];
+        }
 		[stringBuff appendFormat:@"</%@>", _name];
 	}
 	else
 	{
 		[stringBuff appendString:@"/>"];
 	}
+}
+
+@end
+
+@implementation XliffObject(XML)
+
++ (NSString*) xmlSimpleEscape:(NSString*)unescapedStr
+{
+    if (unescapedStr == nil || [unescapedStr length] == 0) {
+        return unescapedStr;
+    }
+
+    NSUInteger len = [unescapedStr length];
+    NSUInteger longer = ((int) (len * 0.10));
+    if (longer < 5) {
+        longer = 5;
+    }
+    longer = len + longer;
+    NSMutableString *mStr = [NSMutableString stringWithCapacity:longer];
+
+    NSRange subrange;
+    subrange.location = 0;
+    subrange.length = 0;
+
+    for (int i = 0; i < len; i++)
+    {
+        char c = [unescapedStr characterAtIndex:i];
+        NSString *replaceWithStr = nil;
+
+        if (c == '\"')
+        {
+            replaceWithStr = @"&quot;";
+        }
+        else if (c == '\'')
+        {
+            replaceWithStr = @"&#x27;";
+        }
+        else if (c == '<')
+        {
+            replaceWithStr = @"&lt;";
+        }
+        else if (c == '>')
+        {
+            replaceWithStr = @"&gt;";
+        }
+        else if (c == '&')
+        {
+            replaceWithStr = @"&amp;";
+        }
+
+        if (replaceWithStr == nil) {
+            // The current character is not an XML escape character, increase subrange length
+
+            subrange.length += 1;
+        } else {
+            // The current character will be replaced, but append any pending substring first
+
+            if (subrange.length > 0) {
+                NSString *substring = [unescapedStr substringWithRange:subrange];
+                [mStr appendString:substring];
+            }
+
+            [mStr appendString:replaceWithStr];
+
+            subrange.location = i + 1;
+            subrange.length = 0;
+        }
+    }
+
+    // Got to end of unescapedStr so append any pending substring, in the
+    // case of no escape characters this will append the whole string.
+
+    if (subrange.length > 0)
+    {
+        if (subrange.location == 0) {
+            [mStr appendString:unescapedStr];
+        } else {
+            NSString *substring = [unescapedStr substringWithRange:subrange];
+            [mStr appendString:substring];
+        }
+    }
+    
+    return [NSString stringWithString:mStr];
 }
 
 @end
